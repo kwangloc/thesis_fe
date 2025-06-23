@@ -10,6 +10,18 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 import autoTable from "jspdf-autotable";
 // 
+
+function getCategoryFullName(category: string): string {
+  const categoryMap: Record<string, string> = {
+    "S": "Subjective",
+    "O": "Objective", 
+    "A": "Assessment",
+    "P": "Plan"
+  };
+  
+  return categoryMap[category.toUpperCase()] || category;
+}
+
 interface InsightsPanelProps {
   summary: SummaryPoint[];
   onSummaryPointClick: (summaryPoint: SummaryPoint) => void;
@@ -123,7 +135,8 @@ export function InsightsPanel({
       doc.setTextColor(255, 255, 255);
       doc.setFontSize(14);
       doc.text(
-        category.charAt(0).toUpperCase() + category.slice(1),
+        // category.charAt(0).toUpperCase() + category.slice(1),
+        getCategoryFullName(category),
         16,
         y
       );
@@ -236,7 +249,8 @@ export function InsightsPanel({
           {Object.entries(summaryByCategory).map(([category, points]) => (
             <div key={category} className="space-y-2">
               <h3 className="text-2xl font-semibold text-gray-800">
-                {category}
+                {/* {category} */}
+                {getCategoryFullName(category)}
               </h3>
               <div className="space-y-2">
                 {points.map((point) => (

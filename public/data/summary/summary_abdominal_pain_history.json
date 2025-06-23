@@ -1,0 +1,116 @@
+{
+  "utterances": {
+    "U1": "Doctor: Hi, my name's Grace. I'm one of the medical students in the A &E department. Do you mind just confirming your name and date of birth for me? Yeah, it's",
+    "U2": "Patient: Caroline Martin. It's the 24th of April, 85. Nice",
+    "U3": "Doctor: to meet you, Caroline. How can I help you today? Yeah,",
+    "U4": "Patient: I just had this sudden pain that started this morning, just after the school run. It was so severe, I've just come straight here. Oh,",
+    "U5": "Doctor: I'm sorry to hear it. Have you had some painkillers? Luckily,",
+    "U6": "Patient: yeah. Triage gave me some, and they certainly have taken off the edge, thank you.",
+    "U7": "Doctor: Okay, and are you comfortable enough for me to ask you some questions? Yeah, thanks. Fine, if that changes, just let me know, okay? Okay. So, tell me a bit more about this pain. Yeah,",
+    "U8": "Patient: this morning, it was a few hours ago, I was dropping my son off at school, and it suddenly came on in my tummy, sort of at the centre but high up.",
+    "U9": "Patient: And with it... Within half an hour, it got so worse that I've just come straight",
+    "U10": "Doctor: here. Okay. Well, let me find out a bit more about it. So, you said it came on quite suddenly this morning, over about half an hour, and it's at the top of your tummy. Yes. Is it going anywhere else? It's actually spreading around to my back. Okay. And what does the pain feel like?",
+    "U11": "Doctor: Sharp, gripping. Okay. And the pain, is it there all the time, or coming and going? Constant. Constant. Okay. And if you had to grade the pain out of 10, with 10 out of 10 being the worst pain you've ever had, where would you place it? When it",
+    "U12": "Patient: first came on, definitely 10 out of 10, but those painkillers, thank goodness, have really taken off the edge. Okay. And what would you say",
+    "U13": "Doctor: it is now? I'd go six, yeah. Okay. So, it's still pretty uncomfortable. And is there anything other than the painkillers which is making that discomfort better or worse? Yeah, I find",
+    "U14": "Patient: if I lean forward... I'm not sure I'm doing it right. It's a bit better. But certainly, it's much worse when I breathe deeply. Okay. And, yeah, just when moving around.",
+    "U15": "Doctor: Okay. And have you noticed any other symptoms with the pain?",
+    "U16": "Patient: When I breathe deeply, it's sort of, it's catching my breath because I just can't as much. I'm feeling really sickly, and I have been sick a few times. Okay. Also, I'm not sure if I have a fever, but I",
+    "U17": "Patient: am feeling hot and sweaty.",
+    "U18": "Doctor: Okay. So, you're feeling pretty unwell with it, aren't you? Yeah. Let me ask a few more questions, see if we can figure out what's going on. So, you mentioned there about vomiting, about being sick. Has there been any blood in the vomit at all? No, no. Anything that looks like coffee grounds? No. Have you had any indigestion or reflux? Neither, no. Any difficulty swallowing? No. No. No. No. Tell me, does that feel swollen or bloated at all? No, just painful. Just painful. And your bowels, any changes there?",
+    "U19": "Patient: Fine. I mean, I go",
+    "U20": "Doctor: every morning, and that was fine this morning. Okay. So, any blood in your stool this morning? No, no. Any diarrhea? No. Okay. And can I ask, what about going for a wee? Any changes there? No, all fine. Okay. Have you had any weight loss recently? I have.",
+    "U21": "Patient: I've lost, I'm very proud, a couple of kilograms. I've lost a few pounds over the last month, but that was purely intentional. I've been on a fitness regime, needed to lose some weight.",
+    "U22": "Doctor: Okay. And do you have periods at all? Well, I'm",
+    "U23": "Patient: on the combined contraceptive pill, so yeah, every three weeks.",
+    "U24": "Doctor: And when was your last period? Yeah, three weeks ago. It's all fine. All fine. Any unscheduled bleeding? No, no. Okay. And any chance you could be pregnant? No. Okay, fine. No. And it doesn't look like it to me, but have you noticed any yellowing of the skin or yellowing around the eyes? No, no, no, no. Any itching of the skin at all? No. Okay, fine. And I just wanted to check, because you mentioned that the pain's a little worse when you're breathing in. Yeah. Other than when you take a deep breath, is your breathing okay? It's absolutely fine. It's",
+    "U25": "Patient: just when I breathe deeply, it'll catch it, but no, absolutely fine otherwise,",
+    "U26": "Doctor: thank you. Have you had a cough at all? No. No. Any pain higher up in your chest? No. Any palpitations? No, no. Any feeling dizzy or lightheaded? No, no. Okay. You give me loads of information there. That's pretty good. I just wanted to double check when you last ate, when you last had something to eat. I",
+    "U27": "Patient: know I've been on a fitness regime, but we did have a treat last night, so we all had fish and chips, yeah.",
+    "U28": "Doctor: Okay. And have you had anything to eat this morning? Oh,",
+    "U29": "Patient: no. School run. I was quick, swig of coffee out the house.",
+    "U30": "Doctor: Okay. Look at you. I'm going to do a little bit of a quick summary of what I've said there. Let me know if you feel that I've missed anything. So you mentioned that from this morning, really from the school run, you've suddenly developed this quite severe pain, gripping sharp in your upper tummy, going through to your back. It's making you feel quite and well, quite sweaty, and you vomited a few times with it as well. But otherwise, you've been okay the last few days. This has just come on quite suddenly. Is that right? Yes. Okay. And do you have any thoughts yourself about what's going on? I'm",
+    "U31": "Patient: not sure what's going on, to be honest, but I don't know. I'm thinking, could it be a stomach bug?",
+    "U32": "Doctor: Okay. I mean, have you traveled anywhere recently? No. No. Okay. And is anyone else at home, do they have anything like a stomach bug or? No. Okay. And is there anything in particular that you're concerned about?",
+    "U33": "Patient: Yeah, the pain, really. I mean, those, you know, painkillers have really helped, but I'm just worried when they wear off, you know, the pain will come back. Yeah, that's",
+    "U34": "Doctor: worrying. Okay. And if that happens, please do let me know. I will. And in terms of your expectations coming to the A &E department today, did you have anything in particular in mind that you were wanting us to do? I suppose,",
+    "U35": "Patient: you know, when the pain comes back again, when those painkillers wear off, to get that under control and really just to find out what is",
+    "U36": "Doctor: going on. Yeah, absolutely. I'm sure we can help with that. Thank you. So, Caroline, I've asked you loads of questions already. I'm just wondering, what's going on? I know you've been on the A &E already, but I've not met you before, so I just need a bit more about your background, if that's all right. Okay. Do you have any other medical conditions?",
+    "U37": "Patient: Well,",
+    "U38": "Patient: a couple of months ago, I did come to A &E, and they diagnosed me with gallstones. I mean, but to be honest, I've been really good cutting down fat in my diet, and that pain has gone. But",
+    "U39": "Patient: to be honest, that pain was like over here on the right -hand side. This is different, feels different. But",
+    "U40": "Patient: this pain now is far worse.",
+    "U41": "Doctor: Okay. And can I ask, did they do a scan at all when you were diagnosed with gallstones? They did, you know, like that",
+    "U42": "Patient: jelly scan they do when you're pregnant. Yeah, you can",
+    "U43": "Doctor: ultrasound. Yes. Lovely. I'll be able to see that. And do you have any other medical conditions at all?",
+    "U44": "Patient: I mean, when I was pregnant, I had diabetes, but just when I was pregnant and all that blood sugar settled, you",
+    "U45": "Doctor: know, straight after. Lovely. Yeah. And I know you mentioned that you take the combined pill. Do you take any other medications? No, no. Okay. Are you allergic to anything? No. And what's your home situation? Who do you live with? My husband. I've got two little children. Okay. And are you in work? No. Stay at home, Mum. And do you smoke at all? No, never. And do you drink at all? Any alcohol?",
+    "U46": "Doctor: I am",
+    "U47": "Patient: a heavy drinker, so I'm currently drinking three bottles of wine over the weekend. Mm -hmm. And I don't drink during the week. But I've spoken to the GP, and he's given me some advice, so I'm going to try and start cutting down, you know, over the next couple of weeks.",
+    "U48": "Doctor: Okay. Great. And can I just check, this last weekend, did you drink anything different to usual, or was it the usual amount? No, I did drink my usual",
+    "U49": "Patient: three bottles, yeah. Okay.",
+    "U50": "Doctor: And can I just check and I ask everybody, any recreational drugs at all? No, never. Okay. Fine. Let me just summarize again for you to make sure we've not missed anything. So you've come to the A &E department today because over the course of the morning, you developed this severe upper pain in your tummy going through to your back. It's making you feel quite sweaty. You've been sick a few times. Yes. You're a little worried it could be something like a stomach bug, and understandably, the pain is quite a concern, although we've got that under control at the moment. Yeah. Is there anything else that you think I've missed there? No, that's exactly what's",
+    "U51": "Patient: going on, and yeah, exactly. Okay.",
+    "U52": "Doctor: And do you have any questions for me? No, thank",
+    "U53": "Patient: you. Thank you. Just, yeah, just to find out what's going on, yeah.",
+    "U54": "Doctor: Fine. Okay. So that's the end of my questions. So thank you for your time, Caroline. Thank you."
+  },
+  "S": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "Patient, Caroline Martin, reports a sudden onset of severe abdominal pain, which started shortly after the school run.",
+      "utterance_id": "U4"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "She describes the pain as \"severe\" and \"rapidly worsening\" within half an hour.",
+      "utterance_id": "U4"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "She reports a sharp, gripping, and constant pain in the abdomen.",
+      "utterance_id": "U11"
+    },
+    {
+      "sentence_idx": "3",
+      "sentence_text": "She says she has been on Triage for the past few hours, which has taken off the edge of the pain.",
+      "utterance_id": "U6"
+    }
+  ],
+  "O": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "Initial examination revealed a large, persistent abdominal pain, which spread to the back of the abdomen.",
+      "utterance_id": "U10"
+    }
+  ],
+  "A": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The primary diagnosis is abdominal pain, likely due to a crocio-abdominal injury, with potential secondary causes including a crocio-abdominal injury or a crocio-abdominal abscess.",
+      "utterance_id": "U10"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "Differential diagnoses could include other abdominal causes, but the current assessment is suggestive of a crocio-abdominal injury.",
+      "utterance_id": "U13"
+    }
+  ],
+  "P": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient was initially treated with Triage, which has taken off the edge of the pain.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient has been advised to continue with the treatment, which is currently being monitored closely.",
+      "utterance_id": "U13"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The patient is advised to continue with the treatment as prescribed.",
+      "utterance_id": "U54"
+    }
+  ]
+}

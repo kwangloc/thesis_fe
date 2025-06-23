@@ -1,0 +1,184 @@
+[
+    {
+        "speaker": "Doctor",
+        "start": 1.58,
+        "end": 8.62,
+        "text": "Hi there, my name's Leah, I'm one of the junior doctors working in the GP surgery. Is it okay if I just check your name and date of birth please? Yeah,",
+        "utterance_id": "U1"
+    },
+    {
+        "speaker": "Patient",
+        "start": 8.62,
+        "end": 16.98,
+        "text": "so it's Camilla, Camilla Weldon, and it's the 3rd of May 1977. Nice to meet you. Is it okay if I call you Camilla today? Yeah, of course. Fabulous.",
+        "utterance_id": "U2"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 17.46,
+        "end": 19.12,
+        "text": "So how can I help you today Camilla?",
+        "utterance_id": "U3"
+    },
+    {
+        "speaker": "Patient",
+        "start": 19.58,
+        "end": 37.56,
+        "text": "Yeah, so the doctor I saw last week, he rang me yesterday to say that I had some blood tests and he just said that the blood tests said I had diabetes. So it was just to come and have a chat to you about, really about that. Okay,",
+        "utterance_id": "U4"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 37.62,
+        "end": 40.7,
+        "text": "so how are you feeling about being told that news over the phone?",
+        "utterance_id": "U5"
+    },
+    {
+        "speaker": "Patient",
+        "start": 42.22,
+        "end": 48.82,
+        "text": "To be honest, I was relieved because at least I sort of now know what's going on.",
+        "utterance_id": "U6"
+    },
+    {
+        "speaker": "Patient",
+        "start": 50.8,
+        "end": 69.92,
+        "text": "But I have to say I'm a little bit anxious because I don't know a lot about diabetes but I'm not sure what's going on. I know that it is caused by lack of exercise and not eating very well and I've got a lot of work to do if that's the case. Okay,",
+        "utterance_id": "U7"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 70.02,
+        "end": 74.3,
+        "text": "and was there anything that you were particularly worried about that we might be talking about today?",
+        "utterance_id": "U8"
+    },
+    {
+        "speaker": "Patient",
+        "start": 76.0,
+        "end": 101.78,
+        "text": "Yeah, it's just, so my colleague at work had mentioned that he has to have quite regular tests for his eyes and he's got to have a lot of blood tests. But also for his feet. And he talks about long -termly it could lead to him losing sensation in his feet but also him losing his eyesight and that really does obviously worry me.",
+        "utterance_id": "U9"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 103.48,
+        "end": 107.26,
+        "text": "Is that something you'd like to talk a bit more about today? Yeah, if",
+        "utterance_id": "U10"
+    },
+    {
+        "speaker": "Patient",
+        "start": 107.26,
+        "end": 109.64,
+        "text": "you've got the time, yeah. Okay,",
+        "utterance_id": "U11"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 109.68,
+        "end": 138.06,
+        "text": "okay, not to worry. So I think to start off with it would be helpful if I could understand a little bit about your general health and a bit about some of the lifestyle factors that you mentioned, maybe a bit of work to do with. Okay. Just so I can understand sort of where you're coming from and how we can advise you with some help in managing the diabetes. Is that okay? Thank you, yes, yes. Okay, so what symptoms did you come in with initially? I know you mentioned you felt a bit tired but what kind of things were you experiencing when you saw the GP to start with?",
+        "utterance_id": "U12"
+    },
+    {
+        "speaker": "Patient",
+        "start": 138.76,
+        "end": 156.84,
+        "text": "I was feeling tired and just quite washed out. Okay. But over a few months I had had, sort of like thrush and some urine infections so I did mention that to the doctor as well. Okay, and was",
+        "utterance_id": "U13"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 156.84,
+        "end": 160.6,
+        "text": "that unusual for you to have those infections? Yeah. Okay.",
+        "utterance_id": "U14"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 176.24,
+        "end": 203.14,
+        "text": "Thank you for that, it's been helpful to understand a little bit about your kind of health in general. That's okay. A bit more about you. Hopefully that will help us give some more information in terms of the diabetes. So I suppose we just need to talk a little bit more about the diabetes itself and what that actually means for you. Yeah. So in people who don't have diabetes, what happens when you eat food is it's broken down into sugar molecules called glucose. And that sugar goes round and round the body to places where it's needed to be used.",
+        "utterance_id": "U15"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 204.18,
+        "end": 220.32,
+        "text": "And in order to store the glucose in the cells where we need to use it, there's a hormone called insulin. Have you heard of that before? I have heard of it, yes. Okay. So insulin's job is to move sugar from the blood into cells and to store it to be used for later.",
+        "utterance_id": "U16"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 221.2,
+        "end": 264.66,
+        "text": "So what happens in diabetes is because there's lots and lots of sugar going round all of the time, the body stops really recognising that there's sugar there. It almost becomes normal for the sugar. It's not going to be that high. So the body stops making as much insulin because it doesn't think it needs to move that sugar into the cells. Another thing that can happen is because there's so much sugar being moved all the time into the cells, the cells sort of stop paying attention to insulin anyway. So even if we do make some insulin, it doesn't really do its job properly anymore. Wow. Does that make sense? Yeah. Okay. Are you happy if I just kind of ask you to summarise what we've just gone through just to make sure I've explained it properly? Me too. I'll do my best.",
+        "utterance_id": "U17"
+    },
+    {
+        "speaker": "Patient",
+        "start": 264.88,
+        "end": 321.48,
+        "text": "But what I understand is that so we eat food and it gets broken down to sugar, glucose in the blood, and that's carried by insulin to cells that need the sugar to do their functions. But diabetes, we have too much sugar in the blood, and something happens. Something happens to the body and that becomes the normal for the body. So it doesn't really think it's got too much. So it's producing less insulin. So insulin obviously is not there to move it. But then also it affects the cells. The cells suddenly just don't pay any attention to insulin. So they just don't even accept any of the sugar. Hence, that buildup is there.",
+        "utterance_id": "U18"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 322.5,
+        "end": 353.58,
+        "text": "So it's the sugar being high in the blood that causes the problems, some of the problems that it sounds like your colleague might be experiencing. So we can think about the complications of diabetes in sort of a short term and then a longer term kind of time period. Okay. So some of the short term problems that patients with diabetes commonly experience are infections. So when you mentioned earlier about the water infections in the fresh. Yes. Yes. It may be that that was to do with the fact that you were on a diet. Yes. And you had quite high blood sugars at the time. Oh",
+        "utterance_id": "U19"
+    },
+    {
+        "speaker": "Patient",
+        "start": 353.58,
+        "end": 356.44,
+        "text": "my goodness. Okay. Yeah. Yeah. So",
+        "utterance_id": "U20"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 356.44,
+        "end": 414.12,
+        "text": "what happens when there's lots of sugar in the blood is the kidneys filter the blood and some of that sugar gets into the urine, which means that bacteria which love sugar can use that sugar to grow and cause the infections. Infections. Okay. Okay. Mm -hmm. Mm -hmm. And then when we move on to thinking about the longer term complications, it causes problems because the glucose going round and round in the blood damages the blood vessels. So there's a selection of small blood vessels and some bigger blood vessels that that causes problems for. So in the small blood vessels, they're the blood vessels that are found behind the eyes and the blood vessels that supply the nerves to the fingers and toes. And also the blood vessels in the kidneys are quite small as well. Okay. So when you mentioned earlier about your colleague getting his eyes checked and his feet checked to check he could still feel things properly. That's probably to make sure that he wasn't getting those complications of diabetes. I",
+        "utterance_id": "U21"
+    },
+    {
+        "speaker": "Patient",
+        "start": 414.12,
+        "end": 417.56,
+        "text": "understand. It makes sense. Yes. Thank you. Thank you.",
+        "utterance_id": "U22"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 417.72,
+        "end": 444.54,
+        "text": "And then the other things are sort of in the bigger blood vessels. So there's some quite big blood vessels in the brain and there's some big blood vessels in the heart as well. So if those blood vessels get damaged, they can cause things like strokes and problems with the heart, so heart disease and heart attacks potentially. So hopefully we can talk through how we can manage the condition a little bit better today. And try and reduce those risks as much as possible. Yes. Of course. Of course. Does that make sense so far? Yeah.",
+        "utterance_id": "U23"
+    },
+    {
+        "speaker": "Patient",
+        "start": 444.58,
+        "end": 448.6,
+        "text": "I think that's, yeah, it does make sense. Thank you. Thank you.",
+        "utterance_id": "U24"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 464.32,
+        "end": 476.74,
+        "text": "Thank you. What I'll do is I'll give you a few leaflets for you to take away as well so you can have a little read between now and when you're next to see us. Okay. And if you've got any questions, please just give us a call or you can book in to speak to one of the GPs again.",
+        "utterance_id": "U25"
+    },
+    {
+        "speaker": "Patient",
+        "start": 477.14,
+        "end": 481.58,
+        "text": "Thank you so much. Thank you. All right. Lovely to meet you. Thank you. You too. Thank you for your time. Thank you.",
+        "utterance_id": "U26"
+    }
+]

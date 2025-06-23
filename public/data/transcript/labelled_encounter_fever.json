@@ -1,0 +1,51 @@
+[
+    {
+        "speaker": "Doctor",
+        "start": 0.0,
+        "end": 2.86,
+        "text": "What seems to be the trouble, Mr. Burke?",
+        "utterance_id": "U1"
+    },
+    {
+        "speaker": "Patient",
+        "start": 3.64,
+        "end": 5.1,
+        "text": "I feel terrible.",
+        "utterance_id": "U2"
+    },
+    {
+        "speaker": "Patient",
+        "start": 6.16,
+        "end": 11.42,
+        "text": "My body aches. I have a runny nose and a bad cough.",
+        "utterance_id": "U3"
+    },
+    {
+        "speaker": "Patient",
+        "start": 12.66,
+        "end": 13.18,
+        "text": "I see.",
+        "utterance_id": "U4"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 16.04,
+        "end": 19.02,
+        "text": "Yes, your temperature is very high, too.",
+        "utterance_id": "U5"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 19.76,
+        "end": 45.36,
+        "text": "You have a fever. It looks like you have the flu. Do you have any allergies? I don't think so. Okay, great. I'm going to prescribe some medicine. Please take it twice every day. Once in the morning and once before bed. You should feel better in a few days. Great, thank",
+        "utterance_id": "U6"
+    },
+    {
+        "speaker": "Patient",
+        "start": 45.36,
+        "end": 45.58,
+        "text": "you.",
+        "utterance_id": "U7"
+    }
+]

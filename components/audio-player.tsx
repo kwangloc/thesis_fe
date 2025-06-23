@@ -20,21 +20,38 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+// interface AudioPlayerProps {
+//   audioUrl: string;
+//   audioType?: string; // Add this prop
+//   title: string;
+//   duration: number;
+//   onTimeUpdate?: (currentTime: number) => void;
+//   onPlay?: () => void;
+//   onPause?: () => void;
+//   onSeek?: (time: number) => void;
+//   wordTimings?: Array<{ word: string; start: number; end: number }>;
+//   segmentRange?: { start: number; end: number } | null;
+//   onSegmentRangeUsed?: () => void;
+// }
+
 interface AudioPlayerProps {
   audioUrl: string;
+  audioType: string;
   title: string;
   duration: number;
-  onTimeUpdate?: (currentTime: number) => void;
-  onPlay?: () => void;
-  onPause?: () => void;
-  onSeek?: (time: number) => void;
-  wordTimings?: Array<{ word: string; start: number; end: number }>;
+  onTimeUpdate: (time: number) => void;
+  onSeek: (time: number) => void;
+  wordTimings?: any[];
   segmentRange?: { start: number; end: number } | null;
   onSegmentRangeUsed?: () => void;
+  isPlaying?: boolean;
+  onPlay?: () => void;
+  onPause?: () => void;
 }
 
 export function AudioPlayer({
   audioUrl,
+  audioType = 'audio/mpeg', // Default to MP3
   title,
   duration,
   onTimeUpdate,
@@ -65,6 +82,18 @@ export function AudioPlayer({
   const [isLoading, setIsLoading] = useState(false);
 
   const progress = actualDuration > 0 ? currentTime / actualDuration : 0;
+
+  useEffect(() => {
+    // When audio URL changes:
+    // 1. Pause any current playback by updating state
+    setIsPlaying(false);
+
+    // 2. Reset internal state
+    setCurrentTime(0);
+
+    // The audio element or waveform will load the new source
+    // when it detects the URL prop has changed
+  }, [audioUrl]);
 
   // Set actual duration from props when component mounts (only if duration is provided)
   useEffect(() => {
@@ -206,6 +235,7 @@ export function AudioPlayer({
               progress={progress}
               duration={actualDuration}
               audioUrl={audioUrl}
+              audioType={audioType}
               onTimeUpdate={handleTimeUpdate}
               onReady={handleWaveformReady}
               onDurationChange={handleDurationChange}

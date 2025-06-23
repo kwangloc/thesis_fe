@@ -27,19 +27,48 @@ interface ConversationFiles {
 // Available conversations with their file paths
 const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
   {
+    name: "Abdominal Pain History",
+    transcriptPath: "/data/transcript/labelled_abdominal_pain_history.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_abdominal_pain_history.json",
+    summaryPath: "/data/summary/summary_abdominal_pain_history.json",
+    audioPath: "/data/audio/abdominal_pain_history.wav"
+  },
+  {
+    name: "Encounter Chest Pain",
+    transcriptPath: "/data/transcript/labelled_encounter_chest_pain.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_encounter_chest_pain.json",
+    summaryPath: "/data/summary/summary_encounter_chest_pain.json",
+    audioPath: "/data/audio/encounter_chest_pain.mp3"
+  },
+  {
+    name: "Encounter Fever",
+    transcriptPath: "/data/transcript/labelled_encounter_fever.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_encounter_fever.json",
+    summaryPath: "/data/summary/summary_encounter_fever.json",
+    audioPath: "/data/audio/encounter_fever.mp3"
+  },
+  {
     name: "Fever Stomach",
-    transcriptPath: "/data/transcript/fever_stomach_transcript.json",
-    wordTranscriptPath: "/data/transcript_word/fever_stomach_word.json",
-    summaryPath: "/data/summary/fever_stomach_summary.json",
+    transcriptPath: "/data/transcript/labelled_fever_stomach.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
+    summaryPath: "/data/summary/summary_fever_stomach.json",
     audioPath: "/data/audio/fever_stomach.mp3"
   },
   {
-    name: "Sick",
-    transcriptPath: "/data/transcript/sick_transcript.json",
-    wordTranscriptPath: "/data/transcript_word/sick_word.json",
-    summaryPath: "/data/summary/sick_summary.json",
-    audioPath: "/data/audio/sick.mp3"
+    name: "Sexual Health History",
+    transcriptPath: "/data/transcript/labelled_sexual_health_history.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_sexual_health_history.json",
+    summaryPath: "/data/summary/summary_sexual_health_history.json",
+    audioPath: "/data/audio/sexual_health_history.wav"
   },
+  {
+    name: "Type 2 Diabetes",
+    transcriptPath: "/data/transcript/labelled_type_2_diabetes.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_type_2_diabetes.json",
+    summaryPath: "/data/summary/summary_type_2_diabetes.json",
+    audioPath: "/data/audio/type_2_diabetes.wav"
+  },
+  
 ];
 
 export default function Home() {
@@ -84,9 +113,21 @@ export default function Home() {
     }, 300);
   }, []);
 
+  // Add this state to track playback 
+  const [isPlaying, setIsPlaying] = useState(false);
+
   // Load data when conversation changes
   useEffect(() => {
     const loadConversationData = async () => {
+      setIsPlaying(false);
+
+      // Reset playback state when conversation changes
+      setCurrentTime(0);
+      setSegmentRange(null);
+      setHighlightedSegmentIds([]);
+      setActivePointId(undefined);
+
+      // Show loading state
       setIsLoading(true);
       
       const conversation = getSelectedConversation();
@@ -125,90 +166,139 @@ export default function Home() {
 
   // Transform summary data for UI consumption
   useEffect(() => {
-    if (!summaryData || !Object.keys(summaryData).length || !transcriptData.length) {
-      setSummaryPoints([]);
-      return;
-    }
+  if (!summaryData || !Object.keys(summaryData).length || !transcriptData.length) {
+    setSummaryPoints([]);
+    return;
+  }
+  
+  try {
+    // Define valid SOAP categories
+    const validCategories = ['S', 'O', 'A', 'P'];
     
-    try {
     // Safely transform summary data
-    const points = Object.entries(summaryData).flatMap(([category, items]: [string, any]) => {
-      // Check if items is an array
-      if (!Array.isArray(items)) {
-        console.warn(`Category "${category}" does not contain an array. Skipping.`);
-        return [];
-      }
-      
-      return items.map((item: any, index: number) => {
-        const pointId = `${category}-${index}`;
-        const originalVersionId = `${pointId}-v1`;
+    const points = Object.entries(summaryData)
+      .filter(([category]) => validCategories.includes(category))
+      .flatMap(([category, items]: [string, any]) => {
+        // Check if items is an array
+        if (!Array.isArray(items)) {
+          console.warn(`Category "${category}" does not contain an array. Skipping.`);
+          return [];
+        }
         
-        // Make sure utterance_ids exists and is an array
-        const utteranceIds = Array.isArray(item.utterance_ids) ? item.utterance_ids : [];
-        
-        return {
-          id: pointId,
-          category: category
-            .replace(/_/g, " ")
-            .replace(/\b\w/g, (l: string) => l.toUpperCase()),
-          text: item.info || "",
-          // *** FIXED MAPPING LOGIC HERE ***
-          relatedSegmentIds: utteranceIds
-            .map((utteranceId: string) => {
-              // Find the transcript segment index by matching utterance_id
-              const segmentIndex = transcriptData.findIndex(
-                segment => segment.utterance_id === utteranceId
-              );
-              
-              // If found, return the segment ID format used in the app
-              return segmentIndex !== -1 ? `segment-${segmentIndex + 1}` : null;
-            })
-            .filter(Boolean),
-          versions: [
-            {
-              id: originalVersionId,
-              content: item.info || "",
-              createdAt: new Date(),
-              isOriginal: true,
-            },
-          ],
-          currentVersionId: originalVersionId,
-        };
+        return items.map((item: any, index: number) => {
+          const pointId = `${category}-${index}`;
+          const originalVersionId = `${pointId}-v1`;
+          
+          // Extract the right properties from the summary item
+          const text = item.sentence_text || item.info || "";
+          const utteranceId = item.utterance_id || "";
+          
+          // Make utterance_id into an array if it's a single string
+          const utteranceIds = Array.isArray(item.utterance_ids) 
+            ? item.utterance_ids 
+            : (utteranceId ? [utteranceId] : []);
+          
+          return {
+            id: pointId,
+            category: category,
+            text: text,
+            relatedSegmentIds: utteranceIds
+              .map((utId: string) => {
+                // If utterance ID is in U1, U2 format, we need to find the corresponding transcript segment
+                if (utId.startsWith("U")) {
+                  // Find the transcript segment by matching the utterance in the transcript
+                  for (let i = 0; i < transcriptData.length; i++) {
+                    // If the transcript has utterance_id field, use that
+                    if (transcriptData[i].utterance_id === utId) {
+                      return `segment-${i + 1}`;
+                    }
+                    
+                    // Otherwise match by content or index (adjust as needed)
+                    const utteranceText = summaryData.utterances?.[utId] || "";
+                    if (utteranceText && transcriptData[i].text.includes(utteranceText.split(":")[1]?.trim() || "")) {
+                      return `segment-${i + 1}`;
+                    }
+                  }
+                  
+                  // If we can't find a match, use a simple mapping (U1->segment-1, U2->segment-2)
+                  const num = parseInt(utId.substring(1), 10);
+                  return num ? `segment-${num}` : null;
+                }
+                
+                // For other formats, try direct mapping
+                const segmentIndex = transcriptData.findIndex(
+                  segment => segment.utterance_id === utId
+                );
+                return segmentIndex !== -1 ? `segment-${segmentIndex + 1}` : null;
+              })
+              .filter(Boolean),
+            versions: [
+              {
+                id: originalVersionId,
+                content: text,
+                createdAt: new Date(),
+                isOriginal: true,
+              },
+            ],
+            currentVersionId: originalVersionId,
+          };
+        });
       });
-    });
     
     setSummaryPoints(points);
   } catch (error) {
     console.error("Error transforming summary data:", error);
+    console.log("Summary data structure:", JSON.stringify(summaryData, null, 2));
     setSummaryPoints([]);
   }
 }, [transcriptData, summaryData]);
 
   // Generate audio data for components
   const selectedConversationDetails = getSelectedConversation();
+
+  function getAudioType(filepath: string): string {
+    const extension = filepath.split('.').pop()?.toLowerCase();
+    switch (extension) {
+      case 'mp3':
+        return 'audio/mpeg';
+      case 'wav':
+        return 'audio/wav';
+      case 'ogg':
+        return 'audio/ogg';
+      case 'm4a':
+        return 'audio/mp4';
+      default:
+        return 'audio/mpeg'; // Default fallback
+    }
+  }
+
   const audioData = {
     id: "consultation",
     title: selectedConversation,
     url: selectedConversationDetails.audioPath,
+    type: getAudioType(selectedConversationDetails.audioPath),
     duration: 0, // Will be set by audio element
     speakers: Array.from(
       new Set(transcriptData.length > 0 ? transcriptData.map((item) => item.speaker) : [])
     )
       .map((id) => {
-        let role: "doctor" | "patient" | "unknown";
+        let role: "doctor" | "patient" | undefined;
         if (id === "Doctor" || id === "SPEAKER_00") {
           role = "doctor";
         } else if (id === "Patient" || id === "SPEAKER_01") {
           role = "patient";
-        } else {
-          role = "unknown";
         }
-        return {
-          id,
-          name: id,
-          role,
-        };
-      }),
+        // Only return speakers with a valid role
+        if (role) {
+          return {
+            id,
+            name: id,
+            role,
+          };
+        }
+        return null;
+      })
+      .filter((speaker): speaker is { id: any; name: any; role: "doctor" | "patient" } => speaker !== null),
     transcript: transcriptData.length > 0 
       ? transcriptData.map((item, index) => ({
           id: `segment-${index + 1}`,
@@ -319,6 +409,7 @@ export default function Home() {
           <div ref={audioPlayerRef} className="sticky top-0 z-10 bg-gray-50 pb-2 flex-shrink-0">
             <AudioPlayer
               audioUrl={audioData.url}
+              audioType={audioData.type}
               title={audioData.title}
               duration={audioData.duration}
               onTimeUpdate={setCurrentTime}
@@ -326,6 +417,9 @@ export default function Home() {
               wordTimings={wordTimings.length > 0 ? wordTimings : []}
               segmentRange={segmentRange}
               onSegmentRangeUsed={() => setSegmentRange(null)}
+              isPlaying={isPlaying} // Add this prop
+              onPlay={() => setIsPlaying(true)} // Add this handler
+              onPause={() => setIsPlaying(false)} // Add this handler
             />
           </div>
 

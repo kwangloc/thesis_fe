@@ -1,0 +1,4947 @@
+[
+    {
+        "word": "Good",
+        "start": 0.0,
+        "end": 0.68
+    },
+    {
+        "word": "morning,",
+        "start": 0.68,
+        "end": 1.0
+    },
+    {
+        "word": "Mr.",
+        "start": 1.14,
+        "end": 1.52
+    },
+    {
+        "word": "Johnson.",
+        "start": 1.74,
+        "end": 2.02
+    },
+    {
+        "word": "How",
+        "start": 2.22,
+        "end": 2.6
+    },
+    {
+        "word": "are",
+        "start": 2.6,
+        "end": 2.74
+    },
+    {
+        "word": "you",
+        "start": 2.74,
+        "end": 2.86
+    },
+    {
+        "word": "feeling",
+        "start": 2.86,
+        "end": 3.12
+    },
+    {
+        "word": "today?",
+        "start": 3.12,
+        "end": 3.38
+    },
+    {
+        "word": "Good",
+        "start": 4.34,
+        "end": 4.86
+    },
+    {
+        "word": "morning,",
+        "start": 4.86,
+        "end": 5.18
+    },
+    {
+        "word": "doctor.",
+        "start": 5.36,
+        "end": 5.62
+    },
+    {
+        "word": "I've",
+        "start": 6.08,
+        "end": 6.6
+    },
+    {
+        "word": "been",
+        "start": 6.6,
+        "end": 6.72
+    },
+    {
+        "word": "experiencing",
+        "start": 6.72,
+        "end": 7.28
+    },
+    {
+        "word": "some",
+        "start": 7.28,
+        "end": 7.66
+    },
+    {
+        "word": "pain",
+        "start": 7.66,
+        "end": 7.98
+    },
+    {
+        "word": "in",
+        "start": 7.98,
+        "end": 8.18
+    },
+    {
+        "word": "my",
+        "start": 8.18,
+        "end": 8.28
+    },
+    {
+        "word": "chest",
+        "start": 8.28,
+        "end": 8.64
+    },
+    {
+        "word": "and",
+        "start": 8.64,
+        "end": 8.9
+    },
+    {
+        "word": "shortness",
+        "start": 8.9,
+        "end": 9.34
+    },
+    {
+        "word": "of",
+        "start": 9.34,
+        "end": 9.52
+    },
+    {
+        "word": "breath.",
+        "start": 9.52,
+        "end": 9.76
+    },
+    {
+        "word": "It's",
+        "start": 10.18,
+        "end": 10.7
+    },
+    {
+        "word": "been",
+        "start": 10.7,
+        "end": 10.84
+    },
+    {
+        "word": "bothering",
+        "start": 10.84,
+        "end": 11.2
+    },
+    {
+        "word": "me",
+        "start": 11.2,
+        "end": 11.46
+    },
+    {
+        "word": "for",
+        "start": 11.46,
+        "end": 11.68
+    },
+    {
+        "word": "a",
+        "start": 11.68,
+        "end": 11.82
+    },
+    {
+        "word": "few",
+        "start": 11.82,
+        "end": 12.02
+    },
+    {
+        "word": "weeks",
+        "start": 12.02,
+        "end": 12.32
+    },
+    {
+        "word": "now.",
+        "start": 12.32,
+        "end": 12.58
+    },
+    {
+        "word": "I'm",
+        "start": 13.5,
+        "end": 14.02
+    },
+    {
+        "word": "glad",
+        "start": 14.02,
+        "end": 14.22
+    },
+    {
+        "word": "you",
+        "start": 14.22,
+        "end": 14.4
+    },
+    {
+        "word": "came",
+        "start": 14.4,
+        "end": 14.6
+    },
+    {
+        "word": "in.",
+        "start": 14.6,
+        "end": 14.76
+    },
+    {
+        "word": "It's",
+        "start": 14.88,
+        "end": 15.36
+    },
+    {
+        "word": "important",
+        "start": 15.36,
+        "end": 15.62
+    },
+    {
+        "word": "not",
+        "start": 15.62,
+        "end": 15.92
+    },
+    {
+        "word": "to",
+        "start": 15.92,
+        "end": 16.06
+    },
+    {
+        "word": "ignore",
+        "start": 16.06,
+        "end": 16.3
+    },
+    {
+        "word": "any",
+        "start": 16.3,
+        "end": 16.54
+    },
+    {
+        "word": "chest",
+        "start": 16.54,
+        "end": 16.8
+    },
+    {
+        "word": "-related",
+        "start": 16.8,
+        "end": 17.08
+    },
+    {
+        "word": "symptoms.",
+        "start": 17.08,
+        "end": 17.54
+    },
+    {
+        "word": "Let",
+        "start": 17.86,
+        "end": 18.34
+    },
+    {
+        "word": "me",
+        "start": 18.34,
+        "end": 18.48
+    },
+    {
+        "word": "ask",
+        "start": 18.48,
+        "end": 18.72
+    },
+    {
+        "word": "you",
+        "start": 18.72,
+        "end": 18.86
+    },
+    {
+        "word": "a",
+        "start": 18.86,
+        "end": 18.98
+    },
+    {
+        "word": "few",
+        "start": 18.98,
+        "end": 19.1
+    },
+    {
+        "word": "questions",
+        "start": 19.1,
+        "end": 19.5
+    },
+    {
+        "word": "to",
+        "start": 19.5,
+        "end": 19.84
+    },
+    {
+        "word": "better",
+        "start": 19.84,
+        "end": 20.0
+    },
+    {
+        "word": "understand",
+        "start": 20.0,
+        "end": 20.28
+    },
+    {
+        "word": "your",
+        "start": 20.28,
+        "end": 20.76
+    },
+    {
+        "word": "condition.",
+        "start": 20.76,
+        "end": 21.02
+    },
+    {
+        "word": "Have",
+        "start": 21.34,
+        "end": 21.78
+    },
+    {
+        "word": "you",
+        "start": 21.78,
+        "end": 21.86
+    },
+    {
+        "word": "noticed",
+        "start": 21.86,
+        "end": 22.16
+    },
+    {
+        "word": "if",
+        "start": 22.16,
+        "end": 22.34
+    },
+    {
+        "word": "these",
+        "start": 22.34,
+        "end": 22.48
+    },
+    {
+        "word": "symptoms",
+        "start": 22.48,
+        "end": 22.8
+    },
+    {
+        "word": "occur",
+        "start": 22.8,
+        "end": 23.08
+    },
+    {
+        "word": "during",
+        "start": 23.08,
+        "end": 23.42
+    },
+    {
+        "word": "any",
+        "start": 23.42,
+        "end": 23.72
+    },
+    {
+        "word": "specific",
+        "start": 23.72,
+        "end": 23.98
+    },
+    {
+        "word": "activities",
+        "start": 23.98,
+        "end": 24.64
+    },
+    {
+        "word": "or",
+        "start": 24.64,
+        "end": 24.98
+    },
+    {
+        "word": "times",
+        "start": 24.98,
+        "end": 25.26
+    },
+    {
+        "word": "of",
+        "start": 25.26,
+        "end": 25.42
+    },
+    {
+        "word": "the",
+        "start": 25.42,
+        "end": 25.5
+    },
+    {
+        "word": "day?",
+        "start": 25.5,
+        "end": 25.74
+    },
+    {
+        "word": "Yes.",
+        "start": 26.52,
+        "end": 27.08
+    },
+    {
+        "word": "I've",
+        "start": 27.32,
+        "end": 27.88
+    },
+    {
+        "word": "noticed",
+        "start": 27.88,
+        "end": 28.18
+    },
+    {
+        "word": "that",
+        "start": 28.18,
+        "end": 28.42
+    },
+    {
+        "word": "it",
+        "start": 28.42,
+        "end": 28.54
+    },
+    {
+        "word": "happens",
+        "start": 28.54,
+        "end": 28.9
+    },
+    {
+        "word": "mostly",
+        "start": 28.9,
+        "end": 29.34
+    },
+    {
+        "word": "when",
+        "start": 29.34,
+        "end": 29.66
+    },
+    {
+        "word": "I",
+        "start": 29.66,
+        "end": 29.78
+    },
+    {
+        "word": "push",
+        "start": 29.78,
+        "end": 30.0
+    },
+    {
+        "word": "myself",
+        "start": 30.0,
+        "end": 30.24
+    },
+    {
+        "word": "physically,",
+        "start": 30.24,
+        "end": 30.86
+    },
+    {
+        "word": "like",
+        "start": 31.5,
+        "end": 31.78
+    },
+    {
+        "word": "when",
+        "start": 31.78,
+        "end": 31.92
+    },
+    {
+        "word": "I'm",
+        "start": 31.92,
+        "end": 32.06
+    },
+    {
+        "word": "climbing",
+        "start": 32.06,
+        "end": 32.34
+    },
+    {
+        "word": "stairs",
+        "start": 32.34,
+        "end": 32.68
+    },
+    {
+        "word": "or",
+        "start": 32.68,
+        "end": 33.06
+    },
+    {
+        "word": "walking",
+        "start": 33.06,
+        "end": 33.42
+    },
+    {
+        "word": "fast.",
+        "start": 33.42,
+        "end": 33.84
+    },
+    {
+        "word": "All",
+        "start": 34.84,
+        "end": 35.28
+    },
+    {
+        "word": "right.",
+        "start": 35.28,
+        "end": 35.52
+    },
+    {
+        "word": "Do",
+        "start": 35.64,
+        "end": 35.98
+    },
+    {
+        "word": "you",
+        "start": 35.98,
+        "end": 36.06
+    },
+    {
+        "word": "have",
+        "start": 36.06,
+        "end": 36.24
+    },
+    {
+        "word": "any",
+        "start": 36.24,
+        "end": 36.5
+    },
+    {
+        "word": "history",
+        "start": 36.5,
+        "end": 36.86
+    },
+    {
+        "word": "of",
+        "start": 36.86,
+        "end": 37.04
+    },
+    {
+        "word": "heart",
+        "start": 37.04,
+        "end": 37.2
+    },
+    {
+        "word": "disease",
+        "start": 37.2,
+        "end": 37.42
+    },
+    {
+        "word": "in",
+        "start": 37.42,
+        "end": 37.7
+    },
+    {
+        "word": "your",
+        "start": 37.7,
+        "end": 37.84
+    },
+    {
+        "word": "family?",
+        "start": 37.84,
+        "end": 38.12
+    },
+    {
+        "word": "Not",
+        "start": 38.92,
+        "end": 39.48
+    },
+    {
+        "word": "that",
+        "start": 39.48,
+        "end": 39.62
+    },
+    {
+        "word": "I'm",
+        "start": 39.62,
+        "end": 39.8
+    },
+    {
+        "word": "aware",
+        "start": 39.8,
+        "end": 39.96
+    },
+    {
+        "word": "of.",
+        "start": 39.96,
+        "end": 40.3
+    },
+    {
+        "word": "My",
+        "start": 40.42,
+        "end": 40.98
+    },
+    {
+        "word": "parents",
+        "start": 40.98,
+        "end": 41.4
+    },
+    {
+        "word": "and",
+        "start": 41.4,
+        "end": 41.66
+    },
+    {
+        "word": "siblings",
+        "start": 41.66,
+        "end": 42.06
+    },
+    {
+        "word": "don't",
+        "start": 42.06,
+        "end": 42.6
+    },
+    {
+        "word": "have",
+        "start": 42.6,
+        "end": 42.74
+    },
+    {
+        "word": "any",
+        "start": 42.74,
+        "end": 42.98
+    },
+    {
+        "word": "heart",
+        "start": 42.98,
+        "end": 43.24
+    },
+    {
+        "word": "-related",
+        "start": 43.24,
+        "end": 43.5
+    },
+    {
+        "word": "issues.",
+        "start": 43.5,
+        "end": 43.92
+    },
+    {
+        "word": "Based",
+        "start": 44.84,
+        "end": 45.4
+    },
+    {
+        "word": "on",
+        "start": 45.4,
+        "end": 45.58
+    },
+    {
+        "word": "your",
+        "start": 45.58,
+        "end": 45.7
+    },
+    {
+        "word": "symptoms",
+        "start": 45.7,
+        "end": 46.1
+    },
+    {
+        "word": "and",
+        "start": 46.1,
+        "end": 46.42
+    },
+    {
+        "word": "their",
+        "start": 46.42,
+        "end": 46.54
+    },
+    {
+        "word": "relation",
+        "start": 46.54,
+        "end": 46.84
+    },
+    {
+        "word": "to",
+        "start": 46.84,
+        "end": 47.14
+    },
+    {
+        "word": "physical",
+        "start": 47.14,
+        "end": 47.4
+    },
+    {
+        "word": "activity,",
+        "start": 47.4,
+        "end": 47.8
+    },
+    {
+        "word": "it's",
+        "start": 48.04,
+        "end": 48.5
+    },
+    {
+        "word": "important",
+        "start": 48.5,
+        "end": 48.8
+    },
+    {
+        "word": "to",
+        "start": 48.8,
+        "end": 49.04
+    },
+    {
+        "word": "consider",
+        "start": 49.04,
+        "end": 49.36
+    },
+    {
+        "word": "your",
+        "start": 49.36,
+        "end": 49.56
+    },
+    {
+        "word": "heart",
+        "start": 49.56,
+        "end": 49.78
+    },
+    {
+        "word": "health.",
+        "start": 49.78,
+        "end": 50.04
+    },
+    {
+        "word": "I'd",
+        "start": 50.22,
+        "end": 50.78
+    },
+    {
+        "word": "like",
+        "start": 50.78,
+        "end": 50.96
+    },
+    {
+        "word": "to",
+        "start": 50.96,
+        "end": 51.14
+    },
+    {
+        "word": "order",
+        "start": 51.14,
+        "end": 51.42
+    },
+    {
+        "word": "an",
+        "start": 51.42,
+        "end": 51.64
+    },
+    {
+        "word": "electrocardiogram,",
+        "start": 51.64,
+        "end": 52.5
+    },
+    {
+        "word": "also",
+        "start": 52.62,
+        "end": 52.9
+    },
+    {
+        "word": "called",
+        "start": 52.9,
+        "end": 53.18
+    },
+    {
+        "word": "ECG,",
+        "start": 53.18,
+        "end": 53.72
+    },
+    {
+        "word": "to",
+        "start": 53.84,
+        "end": 54.3
+    },
+    {
+        "word": "get",
+        "start": 54.3,
+        "end": 54.46
+    },
+    {
+        "word": "a",
+        "start": 54.46,
+        "end": 54.56
+    },
+    {
+        "word": "baseline",
+        "start": 54.56,
+        "end": 54.86
+    },
+    {
+        "word": "assessment",
+        "start": 54.86,
+        "end": 55.22
+    },
+    {
+        "word": "of",
+        "start": 55.22,
+        "end": 55.54
+    },
+    {
+        "word": "your",
+        "start": 55.54,
+        "end": 55.64
+    },
+    {
+        "word": "heart",
+        "start": 55.64,
+        "end": 55.72
+    },
+    {
+        "word": "health.",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "I'd",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "like",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "to",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "order",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "an",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "electrocardiogram,",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "also",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "called",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "ECG,",
+        "start": 55.72,
+        "end": 55.72
+    },
+    {
+        "word": "to",
+        "start": 55.74,
+        "end": 55.76
+    },
+    {
+        "word": "get",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "a",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "baseline",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "assessment",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "of",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "your",
+        "start": 55.76,
+        "end": 55.76
+    },
+    {
+        "word": "heart's",
+        "start": 55.76,
+        "end": 55.94
+    },
+    {
+        "word": "electrical",
+        "start": 55.94,
+        "end": 56.16
+    },
+    {
+        "word": "activity.",
+        "start": 56.16,
+        "end": 56.72
+    },
+    {
+        "word": "It",
+        "start": 56.88,
+        "end": 57.26
+    },
+    {
+        "word": "will",
+        "start": 57.26,
+        "end": 57.34
+    },
+    {
+        "word": "help",
+        "start": 57.34,
+        "end": 57.56
+    },
+    {
+        "word": "us",
+        "start": 57.56,
+        "end": 57.74
+    },
+    {
+        "word": "determine",
+        "start": 57.74,
+        "end": 58.0
+    },
+    {
+        "word": "if",
+        "start": 58.0,
+        "end": 58.34
+    },
+    {
+        "word": "any",
+        "start": 58.34,
+        "end": 59.0
+    },
+    {
+        "word": "abnormalities",
+        "start": 59.0,
+        "end": 59.8
+    },
+    {
+        "word": "are",
+        "start": 59.8,
+        "end": 60.12
+    },
+    {
+        "word": "present.",
+        "start": 60.12,
+        "end": 60.48
+    },
+    {
+        "word": "I",
+        "start": 61.06,
+        "end": 61.62
+    },
+    {
+        "word": "trust",
+        "start": 61.62,
+        "end": 61.84
+    },
+    {
+        "word": "your",
+        "start": 61.84,
+        "end": 62.02
+    },
+    {
+        "word": "judgment,",
+        "start": 62.02,
+        "end": 62.46
+    },
+    {
+        "word": "doctor.",
+        "start": 62.64,
+        "end": 62.98
+    },
+    {
+        "word": "Please",
+        "start": 63.36,
+        "end": 63.92
+    },
+    {
+        "word": "go",
+        "start": 63.92,
+        "end": 64.14
+    },
+    {
+        "word": "ahead",
+        "start": 64.14,
+        "end": 64.42
+    },
+    {
+        "word": "with",
+        "start": 64.42,
+        "end": 64.7
+    },
+    {
+        "word": "the",
+        "start": 64.7,
+        "end": 64.8
+    },
+    {
+        "word": "necessary",
+        "start": 64.8,
+        "end": 65.1
+    },
+    {
+        "word": "tests.",
+        "start": 65.1,
+        "end": 65.7
+    },
+    {
+        "word": "I",
+        "start": 65.92,
+        "end": 66.24
+    },
+    {
+        "word": "want",
+        "start": 66.24,
+        "end": 66.44
+    },
+    {
+        "word": "to",
+        "start": 66.44,
+        "end": 66.54
+    },
+    {
+        "word": "make",
+        "start": 66.54,
+        "end": 66.68
+    },
+    {
+        "word": "sure",
+        "start": 66.68,
+        "end": 66.88
+    },
+    {
+        "word": "everything",
+        "start": 66.88,
+        "end": 67.24
+    },
+    {
+        "word": "is",
+        "start": 67.24,
+        "end": 67.58
+    },
+    {
+        "word": "okay.",
+        "start": 67.58,
+        "end": 67.82
+    },
+    {
+        "word": "Thank",
+        "start": 68.92,
+        "end": 69.48
+    },
+    {
+        "word": "you",
+        "start": 69.48,
+        "end": 69.62
+    },
+    {
+        "word": "for",
+        "start": 69.62,
+        "end": 69.74
+    },
+    {
+        "word": "your",
+        "start": 69.74,
+        "end": 69.86
+    },
+    {
+        "word": "trust,",
+        "start": 69.86,
+        "end": 70.24
+    },
+    {
+        "word": "Mr.",
+        "start": 70.34,
+        "end": 70.62
+    },
+    {
+        "word": "Johnson.",
+        "start": 70.76,
+        "end": 71.06
+    },
+    {
+        "word": "In",
+        "start": 71.26,
+        "end": 71.64
+    },
+    {
+        "word": "the",
+        "start": 71.64,
+        "end": 71.7
+    },
+    {
+        "word": "meantime,",
+        "start": 71.7,
+        "end": 71.92
+    },
+    {
+        "word": "I",
+        "start": 72.22,
+        "end": 72.86
+    },
+    {
+        "word": "recommend",
+        "start": 72.86,
+        "end": 73.16
+    },
+    {
+        "word": "making",
+        "start": 73.16,
+        "end": 73.56
+    },
+    {
+        "word": "some",
+        "start": 73.56,
+        "end": 73.86
+    },
+    {
+        "word": "lifestyle",
+        "start": 73.86,
+        "end": 74.2
+    },
+    {
+        "word": "changes",
+        "start": 74.2,
+        "end": 74.56
+    },
+    {
+        "word": "to",
+        "start": 74.56,
+        "end": 74.94
+    },
+    {
+        "word": "support",
+        "start": 74.94,
+        "end": 75.22
+    },
+    {
+        "word": "your",
+        "start": 75.22,
+        "end": 75.42
+    },
+    {
+        "word": "heart",
+        "start": 75.42,
+        "end": 75.6
+    },
+    {
+        "word": "health.",
+        "start": 75.6,
+        "end": 75.82
+    },
+    {
+        "word": "Have",
+        "start": 76.12,
+        "end": 76.68
+    },
+    {
+        "word": "you",
+        "start": 76.68,
+        "end": 76.78
+    },
+    {
+        "word": "been",
+        "start": 76.78,
+        "end": 76.92
+    },
+    {
+        "word": "following",
+        "start": 76.92,
+        "end": 77.28
+    },
+    {
+        "word": "a",
+        "start": 77.28,
+        "end": 77.44
+    },
+    {
+        "word": "balanced",
+        "start": 77.44,
+        "end": 77.7
+    },
+    {
+        "word": "diet",
+        "start": 77.7,
+        "end": 78.04
+    },
+    {
+        "word": "and",
+        "start": 78.04,
+        "end": 78.38
+    },
+    {
+        "word": "engaging",
+        "start": 78.38,
+        "end": 78.78
+    },
+    {
+        "word": "in",
+        "start": 78.78,
+        "end": 79.04
+    },
+    {
+        "word": "regular",
+        "start": 79.04,
+        "end": 79.22
+    },
+    {
+        "word": "exercise?",
+        "start": 79.22,
+        "end": 79.72
+    },
+    {
+        "word": "I",
+        "start": 80.48,
+        "end": 81.04
+    },
+    {
+        "word": "must",
+        "start": 81.04,
+        "end": 81.2
+    },
+    {
+        "word": "admit",
+        "start": 81.2,
+        "end": 81.46
+    },
+    {
+        "word": "my",
+        "start": 81.46,
+        "end": 81.82
+    },
+    {
+        "word": "diet",
+        "start": 81.82,
+        "end": 82.2
+    },
+    {
+        "word": "hasn't",
+        "start": 82.2,
+        "end": 82.64
+    },
+    {
+        "word": "been",
+        "start": 82.64,
+        "end": 82.8
+    },
+    {
+        "word": "the",
+        "start": 82.8,
+        "end": 82.9
+    },
+    {
+        "word": "healthiest",
+        "start": 82.9,
+        "end": 83.32
+    },
+    {
+        "word": "lately,",
+        "start": 83.32,
+        "end": 83.66
+    },
+    {
+        "word": "and",
+        "start": 83.8,
+        "end": 84.5
+    },
+    {
+        "word": "my",
+        "start": 84.5,
+        "end": 84.76
+    },
+    {
+        "word": "exercise",
+        "start": 84.76,
+        "end": 85.16
+    },
+    {
+        "word": "routine",
+        "start": 85.16,
+        "end": 85.6
+    },
+    {
+        "word": "is",
+        "start": 85.6,
+        "end": 85.94
+    },
+    {
+        "word": "almost",
+        "start": 85.94,
+        "end": 86.38
+    },
+    {
+        "word": "non",
+        "start": 86.38,
+        "end": 86.74
+    },
+    {
+        "word": "-existent",
+        "start": 86.74,
+        "end": 87.32
+    },
+    {
+        "word": "due",
+        "start": 87.32,
+        "end": 87.48
+    },
+    {
+        "word": "to",
+        "start": 87.48,
+        "end": 87.6
+    },
+    {
+        "word": "work.",
+        "start": 87.6,
+        "end": 87.9
+    },
+    {
+        "word": "I'm",
+        "start": 88.82,
+        "end": 89.42
+    },
+    {
+        "word": "not",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "sure",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "if",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "I'm",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "doing",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "it",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "right,",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "but",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "I'm",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "sure",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "I'll",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "be",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "doing",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "it",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "right.",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "It's",
+        "start": 89.42,
+        "end": 89.42
+    },
+    {
+        "word": "never",
+        "start": 89.42,
+        "end": 89.62
+    },
+    {
+        "word": "too",
+        "start": 89.62,
+        "end": 89.82
+    },
+    {
+        "word": "late",
+        "start": 89.82,
+        "end": 90.02
+    },
+    {
+        "word": "to",
+        "start": 90.02,
+        "end": 90.14
+    },
+    {
+        "word": "make",
+        "start": 90.14,
+        "end": 90.28
+    },
+    {
+        "word": "positive",
+        "start": 90.28,
+        "end": 90.66
+    },
+    {
+        "word": "changes,",
+        "start": 90.66,
+        "end": 91.14
+    },
+    {
+        "word": "Mr.",
+        "start": 91.34,
+        "end": 91.64
+    },
+    {
+        "word": "Johnson.",
+        "start": 91.76,
+        "end": 92.06
+    },
+    {
+        "word": "A",
+        "start": 92.24,
+        "end": 92.68
+    },
+    {
+        "word": "heart",
+        "start": 92.68,
+        "end": 92.92
+    },
+    {
+        "word": "-healthy",
+        "start": 92.92,
+        "end": 93.16
+    },
+    {
+        "word": "diet",
+        "start": 93.16,
+        "end": 93.48
+    },
+    {
+        "word": "with",
+        "start": 93.48,
+        "end": 93.72
+    },
+    {
+        "word": "fruits,",
+        "start": 93.72,
+        "end": 94.1
+    },
+    {
+        "word": "vegetables,",
+        "start": 94.16,
+        "end": 94.62
+    },
+    {
+        "word": "whole",
+        "start": 94.96,
+        "end": 95.24
+    },
+    {
+        "word": "grains,",
+        "start": 95.24,
+        "end": 95.64
+    },
+    {
+        "word": "and",
+        "start": 95.8,
+        "end": 96.12
+    },
+    {
+        "word": "lean",
+        "start": 96.12,
+        "end": 96.3
+    },
+    {
+        "word": "proteins,",
+        "start": 96.3,
+        "end": 96.76
+    },
+    {
+        "word": "along",
+        "start": 97.44,
+        "end": 97.74
+    },
+    {
+        "word": "with",
+        "start": 97.74,
+        "end": 98.04
+    },
+    {
+        "word": "regular",
+        "start": 98.04,
+        "end": 98.32
+    },
+    {
+        "word": "physical",
+        "start": 98.32,
+        "end": 98.68
+    },
+    {
+        "word": "activity,",
+        "start": 98.68,
+        "end": 99.28
+    },
+    {
+        "word": "can",
+        "start": 99.4,
+        "end": 99.88
+    },
+    {
+        "word": "significantly",
+        "start": 99.88,
+        "end": 100.36
+    },
+    {
+        "word": "improve",
+        "start": 100.36,
+        "end": 100.76
+    },
+    {
+        "word": "your",
+        "start": 100.76,
+        "end": 100.98
+    },
+    {
+        "word": "heart's",
+        "start": 100.98,
+        "end": 101.3
+    },
+    {
+        "word": "condition.",
+        "start": 101.3,
+        "end": 101.54
+    },
+    {
+        "word": "It's",
+        "start": 101.8,
+        "end": 102.1
+    },
+    {
+        "word": "also",
+        "start": 102.1,
+        "end": 102.28
+    },
+    {
+        "word": "essential",
+        "start": 102.28,
+        "end": 102.62
+    },
+    {
+        "word": "to",
+        "start": 102.62,
+        "end": 102.96
+    },
+    {
+        "word": "manage",
+        "start": 102.96,
+        "end": 103.18
+    },
+    {
+        "word": "stress",
+        "start": 103.18,
+        "end": 103.46
+    },
+    {
+        "word": "and",
+        "start": 103.46,
+        "end": 103.76
+    },
+    {
+        "word": "get",
+        "start": 103.76,
+        "end": 104.0
+    },
+    {
+        "word": "enough",
+        "start": 104.0,
+        "end": 104.74
+    },
+    {
+        "word": "sleep.",
+        "start": 104.74,
+        "end": 105.1
+    },
+    {
+        "word": "That",
+        "start": 105.68,
+        "end": 106.28
+    },
+    {
+        "word": "would",
+        "start": 106.28,
+        "end": 106.48
+    },
+    {
+        "word": "be",
+        "start": 106.48,
+        "end": 106.66
+    },
+    {
+        "word": "great,",
+        "start": 106.66,
+        "end": 106.98
+    },
+    {
+        "word": "doctor.",
+        "start": 107.1,
+        "end": 107.38
+    },
+    {
+        "word": "I'm",
+        "start": 107.66,
+        "end": 108.26
+    },
+    {
+        "word": "ready",
+        "start": 108.26,
+        "end": 108.4
+    },
+    {
+        "word": "to",
+        "start": 108.4,
+        "end": 108.56
+    },
+    {
+        "word": "commit",
+        "start": 108.56,
+        "end": 108.78
+    },
+    {
+        "word": "to",
+        "start": 108.78,
+        "end": 109.02
+    },
+    {
+        "word": "a",
+        "start": 109.02,
+        "end": 109.18
+    },
+    {
+        "word": "healthier",
+        "start": 109.18,
+        "end": 109.52
+    },
+    {
+        "word": "lifestyle.",
+        "start": 109.52,
+        "end": 109.94
+    },
+    {
+        "word": "Are",
+        "start": 110.4,
+        "end": 110.94
+    },
+    {
+        "word": "there",
+        "start": 110.94,
+        "end": 111.08
+    },
+    {
+        "word": "any",
+        "start": 111.08,
+        "end": 111.26
+    },
+    {
+        "word": "medications",
+        "start": 111.26,
+        "end": 111.74
+    },
+    {
+        "word": "I",
+        "start": 111.74,
+        "end": 112.12
+    },
+    {
+        "word": "should",
+        "start": 112.12,
+        "end": 112.3
+    },
+    {
+        "word": "be",
+        "start": 112.3,
+        "end": 112.44
+    },
+    {
+        "word": "taking",
+        "start": 112.44,
+        "end": 112.74
+    },
+    {
+        "word": "or",
+        "start": 112.74,
+        "end": 113.04
+    },
+    {
+        "word": "any",
+        "start": 113.04,
+        "end": 113.36
+    },
+    {
+        "word": "other",
+        "start": 113.36,
+        "end": 113.64
+    },
+    {
+        "word": "treatments",
+        "start": 113.64,
+        "end": 114.04
+    },
+    {
+        "word": "we",
+        "start": 114.04,
+        "end": 114.34
+    },
+    {
+        "word": "should",
+        "start": 114.34,
+        "end": 114.52
+    },
+    {
+        "word": "consider?",
+        "start": 114.52,
+        "end": 114.98
+    },
+    {
+        "word": "We'll",
+        "start": 115.7,
+        "end": 116.26
+    },
+    {
+        "word": "wait",
+        "start": 116.26,
+        "end": 116.46
+    },
+    {
+        "word": "for",
+        "start": 116.46,
+        "end": 116.64
+    },
+    {
+        "word": "the",
+        "start": 116.64,
+        "end": 116.74
+    },
+    {
+        "word": "ECG",
+        "start": 116.74,
+        "end": 117.18
+    },
+    {
+        "word": "results",
+        "start": 117.18,
+        "end": 117.52
+    },
+    {
+        "word": "before",
+        "start": 117.52,
+        "end": 118.28
+    },
+    {
+        "word": "discussing",
+        "start": 118.28,
+        "end": 118.76
+    },
+    {
+        "word": "specific",
+        "start": 118.76,
+        "end": 119.12
+    },
+    {
+        "word": "medications,",
+        "start": 119.12,
+        "end": 119.9
+    },
+    {
+        "word": "as",
+        "start": 120.0,
+        "end": 120.48
+    },
+    {
+        "word": "they",
+        "start": 120.48,
+        "end": 120.56
+    },
+    {
+        "word": "will",
+        "start": 120.56,
+        "end": 120.66
+    },
+    {
+        "word": "depend",
+        "start": 120.66,
+        "end": 120.9
+    },
+    {
+        "word": "on",
+        "start": 120.9,
+        "end": 121.1
+    },
+    {
+        "word": "the",
+        "start": 121.1,
+        "end": 121.16
+    },
+    {
+        "word": "findings,",
+        "start": 121.16,
+        "end": 121.56
+    },
+    {
+        "word": "if",
+        "start": 121.68,
+        "end": 122.0
+    },
+    {
+        "word": "necessary.",
+        "start": 122.0,
+        "end": 122.36
+    },
+    {
+        "word": "We",
+        "start": 122.68,
+        "end": 123.1
+    },
+    {
+        "word": "may",
+        "start": 123.1,
+        "end": 123.22
+    },
+    {
+        "word": "consider",
+        "start": 123.22,
+        "end": 123.58
+    },
+    {
+        "word": "prescribing",
+        "start": 123.58,
+        "end": 124.18
+    },
+    {
+        "word": "medications",
+        "start": 124.18,
+        "end": 124.52
+    },
+    {
+        "word": "to",
+        "start": 124.52,
+        "end": 125.02
+    },
+    {
+        "word": "manage",
+        "start": 125.02,
+        "end": 125.24
+    },
+    {
+        "word": "your",
+        "start": 125.24,
+        "end": 125.42
+    },
+    {
+        "word": "symptoms",
+        "start": 125.42,
+        "end": 125.8
+    },
+    {
+        "word": "and",
+        "start": 125.8,
+        "end": 126.46
+    },
+    {
+        "word": "support",
+        "start": 126.46,
+        "end": 126.8
+    },
+    {
+        "word": "your",
+        "start": 126.8,
+        "end": 127.08
+    },
+    {
+        "word": "heart",
+        "start": 127.08,
+        "end": 127.28
+    },
+    {
+        "word": "health",
+        "start": 127.28,
+        "end": 127.58
+    },
+    {
+        "word": "in",
+        "start": 127.58,
+        "end": 127.92
+    },
+    {
+        "word": "the",
+        "start": 127.92,
+        "end": 128.04
+    },
+    {
+        "word": "meantime.",
+        "start": 128.04,
+        "end": 128.32
+    },
+    {
+        "word": "I",
+        "start": 128.66,
+        "end": 129.14
+    },
+    {
+        "word": "encourage",
+        "start": 129.14,
+        "end": 129.44
+    },
+    {
+        "word": "you",
+        "start": 129.44,
+        "end": 129.72
+    },
+    {
+        "word": "to",
+        "start": 129.72,
+        "end": 129.86
+    },
+    {
+        "word": "take",
+        "start": 129.86,
+        "end": 130.06
+    },
+    {
+        "word": "it",
+        "start": 130.06,
+        "end": 130.18
+    },
+    {
+        "word": "easy",
+        "start": 130.18,
+        "end": 130.42
+    },
+    {
+        "word": "and",
+        "start": 130.42,
+        "end": 130.7
+    },
+    {
+        "word": "avoid",
+        "start": 130.7,
+        "end": 130.94
+    },
+    {
+        "word": "any",
+        "start": 130.94,
+        "end": 131.24
+    },
+    {
+        "word": "heavy",
+        "start": 131.24,
+        "end": 131.46
+    },
+    {
+        "word": "activities.",
+        "start": 131.46,
+        "end": 131.98
+    },
+    {
+        "word": "I",
+        "start": 132.58,
+        "end": 133.14
+    },
+    {
+        "word": "appreciate",
+        "start": 133.14,
+        "end": 133.54
+    },
+    {
+        "word": "your",
+        "start": 133.54,
+        "end": 133.84
+    },
+    {
+        "word": "guidance,",
+        "start": 133.84,
+        "end": 134.24
+    },
+    {
+        "word": "doctor.",
+        "start": 134.44,
+        "end": 134.76
+    },
+    {
+        "word": "I'll",
+        "start": 135.1,
+        "end": 135.66
+    },
+    {
+        "word": "be",
+        "start": 135.66,
+        "end": 135.68
+    },
+    {
+        "word": "cautious",
+        "start": 135.68,
+        "end": 136.06
+    },
+    {
+        "word": "and",
+        "start": 136.06,
+        "end": 136.34
+    },
+    {
+        "word": "prioritize",
+        "start": 136.34,
+        "end": 136.74
+    },
+    {
+        "word": "my",
+        "start": 136.74,
+        "end": 137.32
+    },
+    {
+        "word": "health.",
+        "start": 137.32,
+        "end": 137.6
+    },
+    {
+        "word": "Is",
+        "start": 137.88,
+        "end": 138.42
+    },
+    {
+        "word": "there",
+        "start": 138.42,
+        "end": 138.54
+    },
+    {
+        "word": "anything",
+        "start": 138.54,
+        "end": 138.78
+    },
+    {
+        "word": "else",
+        "start": 138.78,
+        "end": 139.1
+    },
+    {
+        "word": "I",
+        "start": 139.1,
+        "end": 139.26
+    },
+    {
+        "word": "should",
+        "start": 139.26,
+        "end": 139.4
+    },
+    {
+        "word": "be",
+        "start": 139.4,
+        "end": 139.54
+    },
+    {
+        "word": "aware",
+        "start": 139.54,
+        "end": 139.74
+    },
+    {
+        "word": "of",
+        "start": 139.74,
+        "end": 140.06
+    },
+    {
+        "word": "or",
+        "start": 140.06,
+        "end": 140.22
+    },
+    {
+        "word": "any",
+        "start": 140.22,
+        "end": 140.48
+    },
+    {
+        "word": "warning",
+        "start": 140.48,
+        "end": 140.8
+    },
+    {
+        "word": "signs",
+        "start": 140.8,
+        "end": 141.1
+    },
+    {
+        "word": "I",
+        "start": 141.1,
+        "end": 141.52
+    },
+    {
+        "word": "should",
+        "start": 141.52,
+        "end": 141.72
+    },
+    {
+        "word": "watch",
+        "start": 141.72,
+        "end": 141.94
+    },
+    {
+        "word": "out",
+        "start": 141.94,
+        "end": 142.12
+    },
+    {
+        "word": "for?",
+        "start": 142.12,
+        "end": 142.38
+    },
+    {
+        "word": "Some",
+        "start": 143.08,
+        "end": 143.64
+    },
+    {
+        "word": "warning",
+        "start": 143.64,
+        "end": 143.9
+    },
+    {
+        "word": "signs",
+        "start": 143.9,
+        "end": 144.2
+    },
+    {
+        "word": "to",
+        "start": 144.2,
+        "end": 144.5
+    },
+    {
+        "word": "watch",
+        "start": 144.5,
+        "end": 144.68
+    },
+    {
+        "word": "out",
+        "start": 144.68,
+        "end": 144.86
+    },
+    {
+        "word": "for",
+        "start": 144.86,
+        "end": 145.02
+    },
+    {
+        "word": "include",
+        "start": 145.02,
+        "end": 145.18
+    },
+    {
+        "word": "severe",
+        "start": 145.18,
+        "end": 145.52
+    },
+    {
+        "word": "heart",
+        "start": 145.52,
+        "end": 145.58
+    },
+    {
+        "word": "disease,",
+        "start": 145.58,
+        "end": 145.58
+    },
+    {
+        "word": "severe",
+        "start": 145.58,
+        "end": 145.66
+    },
+    {
+        "word": "chest",
+        "start": 145.66,
+        "end": 145.86
+    },
+    {
+        "word": "pain",
+        "start": 145.86,
+        "end": 146.2
+    },
+    {
+        "word": "or",
+        "start": 146.2,
+        "end": 146.76
+    },
+    {
+        "word": "pressure,",
+        "start": 146.76,
+        "end": 147.12
+    },
+    {
+        "word": "pain",
+        "start": 147.3,
+        "end": 147.8
+    },
+    {
+        "word": "radiating",
+        "start": 147.8,
+        "end": 148.36
+    },
+    {
+        "word": "to",
+        "start": 148.36,
+        "end": 148.56
+    },
+    {
+        "word": "your",
+        "start": 148.56,
+        "end": 148.64
+    },
+    {
+        "word": "arms",
+        "start": 148.64,
+        "end": 148.94
+    },
+    {
+        "word": "or",
+        "start": 148.94,
+        "end": 149.18
+    },
+    {
+        "word": "jaw,",
+        "start": 149.18,
+        "end": 149.46
+    },
+    {
+        "word": "and",
+        "start": 149.6,
+        "end": 149.92
+    },
+    {
+        "word": "sudden",
+        "start": 149.92,
+        "end": 150.18
+    },
+    {
+        "word": "shortness",
+        "start": 150.18,
+        "end": 150.62
+    },
+    {
+        "word": "of",
+        "start": 150.62,
+        "end": 150.74
+    },
+    {
+        "word": "breath",
+        "start": 150.74,
+        "end": 150.92
+    },
+    {
+        "word": "even",
+        "start": 150.92,
+        "end": 151.22
+    },
+    {
+        "word": "at",
+        "start": 151.22,
+        "end": 151.4
+    },
+    {
+        "word": "rest.",
+        "start": 151.4,
+        "end": 151.72
+    },
+    {
+        "word": "If",
+        "start": 152.06,
+        "end": 152.54
+    },
+    {
+        "word": "you",
+        "start": 152.54,
+        "end": 152.66
+    },
+    {
+        "word": "experience",
+        "start": 152.66,
+        "end": 153.1
+    },
+    {
+        "word": "any",
+        "start": 153.1,
+        "end": 153.42
+    },
+    {
+        "word": "of",
+        "start": 153.42,
+        "end": 153.6
+    },
+    {
+        "word": "these",
+        "start": 153.6,
+        "end": 153.74
+    },
+    {
+        "word": "symptoms,",
+        "start": 153.74,
+        "end": 154.1
+    },
+    {
+        "word": "it's",
+        "start": 154.3,
+        "end": 154.66
+    },
+    {
+        "word": "crucial",
+        "start": 154.66,
+        "end": 154.9
+    },
+    {
+        "word": "to",
+        "start": 154.9,
+        "end": 155.14
+    },
+    {
+        "word": "seek",
+        "start": 155.14,
+        "end": 155.34
+    },
+    {
+        "word": "immediate",
+        "start": 155.34,
+        "end": 155.6
+    },
+    {
+        "word": "medical",
+        "start": 155.6,
+        "end": 155.92
+    },
+    {
+        "word": "attention.",
+        "start": 155.92,
+        "end": 156.44
+    },
+    {
+        "word": "I'll",
+        "start": 157.16,
+        "end": 157.64
+    },
+    {
+        "word": "keep",
+        "start": 157.64,
+        "end": 157.8
+    },
+    {
+        "word": "a",
+        "start": 157.8,
+        "end": 157.94
+    },
+    {
+        "word": "close",
+        "start": 157.94,
+        "end": 158.14
+    },
+    {
+        "word": "eye",
+        "start": 158.14,
+        "end": 158.36
+    },
+    {
+        "word": "on",
+        "start": 158.36,
+        "end": 158.5
+    },
+    {
+        "word": "those",
+        "start": 158.5,
+        "end": 158.68
+    },
+    {
+        "word": "symptoms",
+        "start": 158.68,
+        "end": 159.04
+    },
+    {
+        "word": "and",
+        "start": 159.04,
+        "end": 159.88
+    },
+    {
+        "word": "won't",
+        "start": 159.88,
+        "end": 160.2
+    },
+    {
+        "word": "hesitate",
+        "start": 160.2,
+        "end": 160.44
+    },
+    {
+        "word": "to",
+        "start": 160.44,
+        "end": 160.72
+    },
+    {
+        "word": "reach",
+        "start": 160.72,
+        "end": 160.92
+    },
+    {
+        "word": "out",
+        "start": 160.92,
+        "end": 161.14
+    },
+    {
+        "word": "for",
+        "start": 161.14,
+        "end": 161.3
+    },
+    {
+        "word": "help.",
+        "start": 161.3,
+        "end": 161.6
+    },
+    {
+        "word": "Thank",
+        "start": 161.74,
+        "end": 162.06
+    },
+    {
+        "word": "you",
+        "start": 162.06,
+        "end": 162.24
+    },
+    {
+        "word": "for",
+        "start": 162.24,
+        "end": 162.38
+    },
+    {
+        "word": "your",
+        "start": 162.38,
+        "end": 162.56
+    },
+    {
+        "word": "time",
+        "start": 162.56,
+        "end": 162.86
+    },
+    {
+        "word": "and",
+        "start": 162.86,
+        "end": 163.14
+    },
+    {
+        "word": "expertise.",
+        "start": 163.14,
+        "end": 163.54
+    },
+    {
+        "word": "You're",
+        "start": 164.68,
+        "end": 165.16
+    },
+    {
+        "word": "welcome,",
+        "start": 165.16,
+        "end": 165.48
+    },
+    {
+        "word": "Mr.",
+        "start": 165.58,
+        "end": 165.7
+    },
+    {
+        "word": "Johnson.",
+        "start": 165.8,
+        "end": 166.12
+    },
+    {
+        "word": "Remember,",
+        "start": 166.3,
+        "end": 166.68
+    },
+    {
+        "word": "we're",
+        "start": 166.9,
+        "end": 167.48
+    },
+    {
+        "word": "here",
+        "start": 167.48,
+        "end": 167.68
+    },
+    {
+        "word": "to",
+        "start": 167.68,
+        "end": 167.84
+    },
+    {
+        "word": "support",
+        "start": 167.84,
+        "end": 168.12
+    },
+    {
+        "word": "you",
+        "start": 168.12,
+        "end": 168.34
+    },
+    {
+        "word": "every",
+        "start": 168.34,
+        "end": 168.54
+    },
+    {
+        "word": "step",
+        "start": 168.54,
+        "end": 168.82
+    },
+    {
+        "word": "of",
+        "start": 168.82,
+        "end": 168.98
+    },
+    {
+        "word": "the",
+        "start": 168.98,
+        "end": 169.06
+    },
+    {
+        "word": "way.",
+        "start": 169.06,
+        "end": 169.26
+    },
+    {
+        "word": "Let's",
+        "start": 169.58,
+        "end": 170.06
+    },
+    {
+        "word": "focus",
+        "start": 170.06,
+        "end": 170.32
+    },
+    {
+        "word": "on",
+        "start": 170.32,
+        "end": 170.52
+    },
+    {
+        "word": "getting",
+        "start": 170.52,
+        "end": 170.7
+    },
+    {
+        "word": "your",
+        "start": 170.7,
+        "end": 170.9
+    },
+    {
+        "word": "tests",
+        "start": 170.9,
+        "end": 171.1
+    },
+    {
+        "word": "scheduled",
+        "start": 171.1,
+        "end": 171.38
+    },
+    {
+        "word": "and",
+        "start": 171.38,
+        "end": 171.84
+    },
+    {
+        "word": "making",
+        "start": 171.84,
+        "end": 172.1
+    },
+    {
+        "word": "those",
+        "start": 172.1,
+        "end": 172.32
+    },
+    {
+        "word": "positive",
+        "start": 172.32,
+        "end": 172.7
+    },
+    {
+        "word": "lifestyle",
+        "start": 172.7,
+        "end": 173.04
+    },
+    {
+        "word": "changes.",
+        "start": 173.04,
+        "end": 173.56
+    },
+    {
+        "word": "We'll",
+        "start": 173.9,
+        "end": 174.38
+    },
+    {
+        "word": "discuss",
+        "start": 174.38,
+        "end": 174.7
+    },
+    {
+        "word": "the",
+        "start": 174.7,
+        "end": 174.9
+    },
+    {
+        "word": "results",
+        "start": 174.9,
+        "end": 175.14
+    },
+    {
+        "word": "and",
+        "start": 175.14,
+        "end": 175.4
+    },
+    {
+        "word": "know",
+        "start": 175.4,
+        "end": 175.56
+    },
+    {
+        "word": "-how.",
+        "start": 175.56,
+        "end": 175.56
+    },
+    {
+        "word": "We'll",
+        "start": 175.56,
+        "end": 175.64
+    },
+    {
+        "word": "take",
+        "start": 175.64,
+        "end": 175.64
+    },
+    {
+        "word": "the",
+        "start": 175.64,
+        "end": 175.64
+    },
+    {
+        "word": "next",
+        "start": 175.64,
+        "end": 175.64
+    },
+    {
+        "word": "steps",
+        "start": 175.64,
+        "end": 175.92
+    },
+    {
+        "word": "once",
+        "start": 175.92,
+        "end": 176.14
+    },
+    {
+        "word": "we",
+        "start": 176.14,
+        "end": 176.28
+    },
+    {
+        "word": "have",
+        "start": 176.28,
+        "end": 176.4
+    },
+    {
+        "word": "more",
+        "start": 176.4,
+        "end": 176.58
+    },
+    {
+        "word": "information.",
+        "start": 176.58,
+        "end": 177.04
+    },
+    {
+        "word": "Take",
+        "start": 177.2,
+        "end": 177.6
+    },
+    {
+        "word": "care",
+        "start": 177.6,
+        "end": 177.84
+    },
+    {
+        "word": "and",
+        "start": 177.84,
+        "end": 178.06
+    },
+    {
+        "word": "feel",
+        "start": 178.06,
+        "end": 178.3
+    },
+    {
+        "word": "better.",
+        "start": 178.3,
+        "end": 178.58
+    },
+    {
+        "word": "Thank",
+        "start": 179.5,
+        "end": 179.98
+    },
+    {
+        "word": "you,",
+        "start": 179.98,
+        "end": 180.18
+    },
+    {
+        "word": "doctor.",
+        "start": 180.18,
+        "end": 180.36
+    },
+    {
+        "word": "I",
+        "start": 180.62,
+        "end": 181.1
+    },
+    {
+        "word": "appreciate",
+        "start": 181.1,
+        "end": 181.5
+    },
+    {
+        "word": "your",
+        "start": 181.5,
+        "end": 181.82
+    },
+    {
+        "word": "care",
+        "start": 181.82,
+        "end": 182.1
+    },
+    {
+        "word": "and",
+        "start": 182.1,
+        "end": 182.38
+    },
+    {
+        "word": "concern.",
+        "start": 182.38,
+        "end": 182.8
+    },
+    {
+        "word": "I'll",
+        "start": 183.22,
+        "end": 183.7
+    },
+    {
+        "word": "be",
+        "start": 183.7,
+        "end": 183.78
+    },
+    {
+        "word": "in",
+        "start": 183.78,
+        "end": 183.96
+    },
+    {
+        "word": "touch",
+        "start": 183.96,
+        "end": 184.24
+    },
+    {
+        "word": "and",
+        "start": 184.24,
+        "end": 184.48
+    },
+    {
+        "word": "follow",
+        "start": 184.48,
+        "end": 184.82
+    },
+    {
+        "word": "your",
+        "start": 184.82,
+        "end": 185.06
+    },
+    {
+        "word": "advice.",
+        "start": 185.06,
+        "end": 185.42
+    },
+    {
+        "word": "Goodbye.",
+        "start": 185.68,
+        "end": 186.14
+    },
+    {
+        "word": "Goodbye,",
+        "start": 187.24,
+        "end": 187.72
+    },
+    {
+        "word": "Mr.",
+        "start": 187.82,
+        "end": 187.98
+    },
+    {
+        "word": "Johnson.",
+        "start": 188.14,
+        "end": 188.42
+    },
+    {
+        "word": "Take",
+        "start": 188.64,
+        "end": 189.08
+    },
+    {
+        "word": "care",
+        "start": 189.08,
+        "end": 189.28
+    },
+    {
+        "word": "and",
+        "start": 189.28,
+        "end": 189.5
+    },
+    {
+        "word": "stay",
+        "start": 189.5,
+        "end": 189.76
+    },
+    {
+        "word": "well.",
+        "start": 189.76,
+        "end": 190.04
+    },
+    {
+        "word": "Hello",
+        "start": 194.0,
+        "end": 194.48
+    },
+    {
+        "word": "again,",
+        "start": 194.48,
+        "end": 194.96
+    },
+    {
+        "word": "Mr.",
+        "start": 195.12,
+        "end": 195.54
+    },
+    {
+        "word": "Johnson.",
+        "start": 195.7,
+        "end": 196.0
+    },
+    {
+        "word": "I",
+        "start": 196.18,
+        "end": 196.52
+    },
+    {
+        "word": "have",
+        "start": 196.52,
+        "end": 196.66
+    },
+    {
+        "word": "the",
+        "start": 196.66,
+        "end": 196.76
+    },
+    {
+        "word": "results",
+        "start": 196.76,
+        "end": 197.06
+    },
+    {
+        "word": "of",
+        "start": 197.06,
+        "end": 197.24
+    },
+    {
+        "word": "your",
+        "start": 197.24,
+        "end": 197.3
+    },
+    {
+        "word": "ECG.",
+        "start": 197.3,
+        "end": 197.76
+    },
+    {
+        "word": "And",
+        "start": 197.9,
+        "end": 198.38
+    },
+    {
+        "word": "I'm",
+        "start": 198.38,
+        "end": 198.6
+    },
+    {
+        "word": "happy",
+        "start": 198.6,
+        "end": 198.84
+    },
+    {
+        "word": "to",
+        "start": 198.84,
+        "end": 199.02
+    },
+    {
+        "word": "say",
+        "start": 199.02,
+        "end": 199.2
+    },
+    {
+        "word": "that",
+        "start": 199.2,
+        "end": 199.34
+    },
+    {
+        "word": "your",
+        "start": 199.34,
+        "end": 199.48
+    },
+    {
+        "word": "heart",
+        "start": 199.48,
+        "end": 199.7
+    },
+    {
+        "word": "rhythm",
+        "start": 199.7,
+        "end": 199.92
+    },
+    {
+        "word": "appears",
+        "start": 199.92,
+        "end": 200.16
+    },
+    {
+        "word": "normal.",
+        "start": 200.16,
+        "end": 200.6
+    },
+    {
+        "word": "That's",
+        "start": 201.42,
+        "end": 201.9
+    },
+    {
+        "word": "a",
+        "start": 201.9,
+        "end": 201.9
+    },
+    {
+        "word": "relief",
+        "start": 201.9,
+        "end": 202.16
+    },
+    {
+        "word": "to",
+        "start": 202.16,
+        "end": 202.32
+    },
+    {
+        "word": "hear,",
+        "start": 202.32,
+        "end": 202.46
+    },
+    {
+        "word": "doctor.",
+        "start": 202.56,
+        "end": 202.82
+    },
+    {
+        "word": "So",
+        "start": 203.26,
+        "end": 203.74
+    },
+    {
+        "word": "does",
+        "start": 203.74,
+        "end": 203.98
+    },
+    {
+        "word": "that",
+        "start": 203.98,
+        "end": 204.18
+    },
+    {
+        "word": "mean",
+        "start": 204.18,
+        "end": 204.38
+    },
+    {
+        "word": "my",
+        "start": 204.38,
+        "end": 204.58
+    },
+    {
+        "word": "symptoms",
+        "start": 204.58,
+        "end": 205.02
+    },
+    {
+        "word": "are",
+        "start": 205.02,
+        "end": 205.38
+    },
+    {
+        "word": "not",
+        "start": 205.38,
+        "end": 205.54
+    },
+    {
+        "word": "as",
+        "start": 205.54,
+        "end": 205.54
+    },
+    {
+        "word": "bad",
+        "start": 205.54,
+        "end": 205.54
+    },
+    {
+        "word": "as",
+        "start": 205.54,
+        "end": 205.54
+    },
+    {
+        "word": "I",
+        "start": 205.54,
+        "end": 205.54
+    },
+    {
+        "word": "thought?",
+        "start": 205.54,
+        "end": 205.54
+    },
+    {
+        "word": "No,",
+        "start": 205.56,
+        "end": 205.64
+    },
+    {
+        "word": "doctor.",
+        "start": 205.64,
+        "end": 205.72
+    },
+    {
+        "word": "Your",
+        "start": 205.72,
+        "end": 205.72
+    },
+    {
+        "word": "heart",
+        "start": 205.72,
+        "end": 205.72
+    },
+    {
+        "word": "rhythm",
+        "start": 205.72,
+        "end": 205.72
+    },
+    {
+        "word": "is",
+        "start": 205.72,
+        "end": 205.72
+    },
+    {
+        "word": "not",
+        "start": 205.72,
+        "end": 205.72
+    },
+    {
+        "word": "related",
+        "start": 205.72,
+        "end": 205.84
+    },
+    {
+        "word": "to",
+        "start": 205.84,
+        "end": 206.16
+    },
+    {
+        "word": "any",
+        "start": 206.16,
+        "end": 206.34
+    },
+    {
+        "word": "heart",
+        "start": 206.34,
+        "end": 206.62
+    },
+    {
+        "word": "issues.",
+        "start": 206.62,
+        "end": 206.92
+    },
+    {
+        "word": "While",
+        "start": 207.8,
+        "end": 208.36
+    },
+    {
+        "word": "the",
+        "start": 208.36,
+        "end": 208.52
+    },
+    {
+        "word": "ECG",
+        "start": 208.52,
+        "end": 208.88
+    },
+    {
+        "word": "results",
+        "start": 208.88,
+        "end": 209.22
+    },
+    {
+        "word": "are",
+        "start": 209.22,
+        "end": 209.5
+    },
+    {
+        "word": "reassuring,",
+        "start": 209.5,
+        "end": 210.0
+    },
+    {
+        "word": "we",
+        "start": 210.1,
+        "end": 210.78
+    },
+    {
+        "word": "still",
+        "start": 210.78,
+        "end": 211.02
+    },
+    {
+        "word": "need",
+        "start": 211.02,
+        "end": 211.22
+    },
+    {
+        "word": "to",
+        "start": 211.22,
+        "end": 211.38
+    },
+    {
+        "word": "investigate",
+        "start": 211.38,
+        "end": 211.78
+    },
+    {
+        "word": "further.",
+        "start": 211.78,
+        "end": 212.2
+    },
+    {
+        "word": "To",
+        "start": 212.5,
+        "end": 213.06
+    },
+    {
+        "word": "determine",
+        "start": 213.06,
+        "end": 213.46
+    },
+    {
+        "word": "the",
+        "start": 213.46,
+        "end": 213.66
+    },
+    {
+        "word": "exact",
+        "start": 213.66,
+        "end": 213.88
+    },
+    {
+        "word": "cause",
+        "start": 213.88,
+        "end": 214.24
+    },
+    {
+        "word": "of",
+        "start": 214.24,
+        "end": 214.36
+    },
+    {
+        "word": "your",
+        "start": 214.36,
+        "end": 214.48
+    },
+    {
+        "word": "symptoms,",
+        "start": 214.48,
+        "end": 214.88
+    },
+    {
+        "word": "other",
+        "start": 215.04,
+        "end": 215.4
+    },
+    {
+        "word": "factors",
+        "start": 215.4,
+        "end": 215.84
+    },
+    {
+        "word": "like",
+        "start": 215.84,
+        "end": 216.14
+    },
+    {
+        "word": "lung",
+        "start": 216.14,
+        "end": 216.38
+    },
+    {
+        "word": "function",
+        "start": 216.38,
+        "end": 216.76
+    },
+    {
+        "word": "would",
+        "start": 216.76,
+        "end": 217.46
+    },
+    {
+        "word": "be",
+        "start": 217.46,
+        "end": 217.58
+    },
+    {
+        "word": "contributing,",
+        "start": 217.58,
+        "end": 218.04
+    },
+    {
+        "word": "I",
+        "start": 218.22,
+        "end": 218.58
+    },
+    {
+        "word": "suggest",
+        "start": 218.58,
+        "end": 218.84
+    },
+    {
+        "word": "a",
+        "start": 218.84,
+        "end": 219.08
+    },
+    {
+        "word": "few",
+        "start": 219.08,
+        "end": 219.22
+    },
+    {
+        "word": "more",
+        "start": 219.22,
+        "end": 219.38
+    },
+    {
+        "word": "tests",
+        "start": 219.38,
+        "end": 219.72
+    },
+    {
+        "word": "to",
+        "start": 219.72,
+        "end": 219.94
+    },
+    {
+        "word": "get",
+        "start": 219.94,
+        "end": 220.06
+    },
+    {
+        "word": "a",
+        "start": 220.06,
+        "end": 220.12
+    },
+    {
+        "word": "clearer",
+        "start": 220.12,
+        "end": 220.44
+    },
+    {
+        "word": "picture.",
+        "start": 220.44,
+        "end": 220.72
+    },
+    {
+        "word": "I",
+        "start": 221.66,
+        "end": 222.22
+    },
+    {
+        "word": "understand,",
+        "start": 222.22,
+        "end": 222.56
+    },
+    {
+        "word": "doctor.",
+        "start": 222.9,
+        "end": 223.18
+    },
+    {
+        "word": "What",
+        "start": 223.44,
+        "end": 223.92
+    },
+    {
+        "word": "tests",
+        "start": 223.92,
+        "end": 224.2
+    },
+    {
+        "word": "do",
+        "start": 224.2,
+        "end": 224.44
+    },
+    {
+        "word": "you",
+        "start": 224.44,
+        "end": 224.58
+    },
+    {
+        "word": "recommend?",
+        "start": 224.58,
+        "end": 224.92
+    },
+    {
+        "word": "I'd",
+        "start": 225.9,
+        "end": 226.46
+    },
+    {
+        "word": "like",
+        "start": 226.46,
+        "end": 226.64
+    },
+    {
+        "word": "to",
+        "start": 226.64,
+        "end": 226.8
+    },
+    {
+        "word": "conduct",
+        "start": 226.8,
+        "end": 227.08
+    },
+    {
+        "word": "a",
+        "start": 227.08,
+        "end": 227.26
+    },
+    {
+        "word": "pulmonary",
+        "start": 227.26,
+        "end": 227.6
+    },
+    {
+        "word": "function",
+        "start": 227.6,
+        "end": 227.94
+    },
+    {
+        "word": "test",
+        "start": 227.94,
+        "end": 228.34
+    },
+    {
+        "word": "to",
+        "start": 228.34,
+        "end": 229.3
+    },
+    {
+        "word": "assess",
+        "start": 229.3,
+        "end": 229.58
+    },
+    {
+        "word": "your",
+        "start": 229.58,
+        "end": 229.78
+    },
+    {
+        "word": "lung",
+        "start": 229.78,
+        "end": 230.0
+    },
+    {
+        "word": "function",
+        "start": 230.0,
+        "end": 230.38
+    },
+    {
+        "word": "and",
+        "start": 230.38,
+        "end": 230.72
+    },
+    {
+        "word": "a",
+        "start": 230.72,
+        "end": 230.82
+    },
+    {
+        "word": "stress",
+        "start": 230.82,
+        "end": 231.02
+    },
+    {
+        "word": "test",
+        "start": 231.02,
+        "end": 231.28
+    },
+    {
+        "word": "to",
+        "start": 231.28,
+        "end": 231.5
+    },
+    {
+        "word": "evaluate",
+        "start": 231.5,
+        "end": 231.82
+    },
+    {
+        "word": "your",
+        "start": 231.82,
+        "end": 232.18
+    },
+    {
+        "word": "heart's",
+        "start": 232.18,
+        "end": 232.46
+    },
+    {
+        "word": "response",
+        "start": 232.46,
+        "end": 232.74
+    },
+    {
+        "word": "to",
+        "start": 232.74,
+        "end": 233.42
+    },
+    {
+        "word": "physical",
+        "start": 233.42,
+        "end": 233.78
+    },
+    {
+        "word": "exertion.",
+        "start": 233.78,
+        "end": 234.36
+    },
+    {
+        "word": "These",
+        "start": 234.36,
+        "end": 234.78
+    },
+    {
+        "word": "tests",
+        "start": 234.78,
+        "end": 235.14
+    },
+    {
+        "word": "will",
+        "start": 235.14,
+        "end": 235.36
+    },
+    {
+        "word": "help",
+        "start": 235.36,
+        "end": 235.56
+    },
+    {
+        "word": "us",
+        "start": 235.56,
+        "end": 235.74
+    },
+    {
+        "word": "gather",
+        "start": 235.74,
+        "end": 235.9
+    },
+    {
+        "word": "more",
+        "start": 235.9,
+        "end": 236.14
+    },
+    {
+        "word": "information.",
+        "start": 236.14,
+        "end": 236.54
+    },
+    {
+        "word": "All",
+        "start": 237.18,
+        "end": 237.74
+    },
+    {
+        "word": "right,",
+        "start": 237.74,
+        "end": 238.02
+    },
+    {
+        "word": "doctor.",
+        "start": 238.04,
+        "end": 238.32
+    },
+    {
+        "word": "I'll",
+        "start": 238.52,
+        "end": 238.8
+    },
+    {
+        "word": "proceed",
+        "start": 238.8,
+        "end": 239.08
+    },
+    {
+        "word": "with",
+        "start": 239.08,
+        "end": 239.38
+    },
+    {
+        "word": "the",
+        "start": 239.38,
+        "end": 239.5
+    },
+    {
+        "word": "tests.",
+        "start": 239.5,
+        "end": 239.82
+    },
+    {
+        "word": "I",
+        "start": 240.08,
+        "end": 240.64
+    },
+    {
+        "word": "appreciate",
+        "start": 240.64,
+        "end": 241.04
+    },
+    {
+        "word": "your",
+        "start": 241.04,
+        "end": 241.34
+    },
+    {
+        "word": "thoroughness",
+        "start": 241.34,
+        "end": 241.86
+    },
+    {
+        "word": "in",
+        "start": 241.86,
+        "end": 242.08
+    },
+    {
+        "word": "finding",
+        "start": 242.08,
+        "end": 242.46
+    },
+    {
+        "word": "the",
+        "start": 242.46,
+        "end": 242.6
+    },
+    {
+        "word": "cause.",
+        "start": 242.6,
+        "end": 242.92
+    },
+    {
+        "word": "It's",
+        "start": 243.76,
+        "end": 244.32
+    },
+    {
+        "word": "important",
+        "start": 244.32,
+        "end": 244.6
+    },
+    {
+        "word": "for",
+        "start": 244.6,
+        "end": 244.9
+    },
+    {
+        "word": "us",
+        "start": 244.9,
+        "end": 245.06
+    },
+    {
+        "word": "to",
+        "start": 245.06,
+        "end": 245.2
+    },
+    {
+        "word": "have",
+        "start": 245.2,
+        "end": 245.32
+    },
+    {
+        "word": "a",
+        "start": 245.32,
+        "end": 245.4
+    },
+    {
+        "word": "full",
+        "start": 245.4,
+        "end": 245.56
+    },
+    {
+        "word": "understanding",
+        "start": 245.56,
+        "end": 246.02
+    },
+    {
+        "word": "of",
+        "start": 246.02,
+        "end": 246.28
+    },
+    {
+        "word": "your",
+        "start": 246.28,
+        "end": 246.4
+    },
+    {
+        "word": "health.",
+        "start": 246.4,
+        "end": 246.68
+    },
+    {
+        "word": "Mr.",
+        "start": 247.2,
+        "end": 247.76
+    },
+    {
+        "word": "Johnson,",
+        "start": 247.82,
+        "end": 248.14
+    },
+    {
+        "word": "these",
+        "start": 248.32,
+        "end": 248.92
+    },
+    {
+        "word": "tests",
+        "start": 248.92,
+        "end": 249.34
+    },
+    {
+        "word": "will",
+        "start": 249.34,
+        "end": 249.68
+    },
+    {
+        "word": "help",
+        "start": 249.68,
+        "end": 249.88
+    },
+    {
+        "word": "us",
+        "start": 249.88,
+        "end": 250.06
+    },
+    {
+        "word": "rule",
+        "start": 250.06,
+        "end": 250.22
+    },
+    {
+        "word": "out",
+        "start": 250.22,
+        "end": 250.42
+    },
+    {
+        "word": "any",
+        "start": 250.42,
+        "end": 250.64
+    },
+    {
+        "word": "underlying",
+        "start": 250.64,
+        "end": 251.04
+    },
+    {
+        "word": "conditions",
+        "start": 251.04,
+        "end": 251.52
+    },
+    {
+        "word": "and",
+        "start": 251.52,
+        "end": 251.88
+    },
+    {
+        "word": "guide",
+        "start": 251.88,
+        "end": 252.12
+    },
+    {
+        "word": "us",
+        "start": 252.12,
+        "end": 252.3
+    },
+    {
+        "word": "toward",
+        "start": 252.3,
+        "end": 252.5
+    },
+    {
+        "word": "an",
+        "start": 252.5,
+        "end": 252.68
+    },
+    {
+        "word": "accurate",
+        "start": 252.68,
+        "end": 252.98
+    },
+    {
+        "word": "diagnosis.",
+        "start": 252.98,
+        "end": 253.92
+    },
+    {
+        "word": "In",
+        "start": 254.08,
+        "end": 254.64
+    },
+    {
+        "word": "the",
+        "start": 254.64,
+        "end": 254.76
+    },
+    {
+        "word": "meantime,",
+        "start": 254.76,
+        "end": 255.02
+    },
+    {
+        "word": "I",
+        "start": 255.32,
+        "end": 255.88
+    },
+    {
+        "word": "encourage",
+        "start": 255.88,
+        "end": 256.16
+    },
+    {
+        "word": "you",
+        "start": 256.16,
+        "end": 256.46
+    },
+    {
+        "word": "to",
+        "start": 256.46,
+        "end": 256.62
+    },
+    {
+        "word": "continue",
+        "start": 256.62,
+        "end": 256.94
+    },
+    {
+        "word": "with",
+        "start": 256.94,
+        "end": 257.16
+    },
+    {
+        "word": "the",
+        "start": 257.16,
+        "end": 257.28
+    },
+    {
+        "word": "lifestyle",
+        "start": 257.28,
+        "end": 257.6
+    },
+    {
+        "word": "modifications",
+        "start": 257.6,
+        "end": 258.1
+    },
+    {
+        "word": "we",
+        "start": 258.1,
+        "end": 258.6
+    },
+    {
+        "word": "discussed",
+        "start": 258.6,
+        "end": 258.86
+    },
+    {
+        "word": "earlier.",
+        "start": 258.86,
+        "end": 259.3
+    },
+    {
+        "word": "Absolutely,",
+        "start": 260.16,
+        "end": 260.72
+    },
+    {
+        "word": "doctor.",
+        "start": 260.88,
+        "end": 261.08
+    },
+    {
+        "word": "I've",
+        "start": 261.44,
+        "end": 262.0
+    },
+    {
+        "word": "been",
+        "start": 262.0,
+        "end": 262.14
+    },
+    {
+        "word": "making",
+        "start": 262.14,
+        "end": 262.38
+    },
+    {
+        "word": "conscious",
+        "start": 262.38,
+        "end": 262.8
+    },
+    {
+        "word": "efforts",
+        "start": 262.8,
+        "end": 263.22
+    },
+    {
+        "word": "to",
+        "start": 263.22,
+        "end": 263.52
+    },
+    {
+        "word": "improve",
+        "start": 263.52,
+        "end": 263.76
+    },
+    {
+        "word": "my",
+        "start": 263.76,
+        "end": 264.1
+    },
+    {
+        "word": "diet.",
+        "start": 264.1,
+        "end": 264.34
+    },
+    {
+        "word": "and",
+        "start": 264.34,
+        "end": 264.62
+    },
+    {
+        "word": "incorporate",
+        "start": 264.62,
+        "end": 265.14
+    },
+    {
+        "word": "exercise",
+        "start": 265.14,
+        "end": 265.86
+    },
+    {
+        "word": "into",
+        "start": 265.86,
+        "end": 266.32
+    },
+    {
+        "word": "my",
+        "start": 266.32,
+        "end": 266.5
+    },
+    {
+        "word": "routine.",
+        "start": 266.5,
+        "end": 266.84
+    },
+    {
+        "word": "It's",
+        "start": 267.22,
+        "end": 267.78
+    },
+    {
+        "word": "challenging,",
+        "start": 267.78,
+        "end": 268.18
+    },
+    {
+        "word": "but",
+        "start": 268.34,
+        "end": 268.58
+    },
+    {
+        "word": "I",
+        "start": 268.58,
+        "end": 268.68
+    },
+    {
+        "word": "understand",
+        "start": 268.68,
+        "end": 269.1
+    },
+    {
+        "word": "the",
+        "start": 269.1,
+        "end": 269.36
+    },
+    {
+        "word": "importance",
+        "start": 269.36,
+        "end": 269.78
+    },
+    {
+        "word": "of",
+        "start": 269.78,
+        "end": 270.12
+    },
+    {
+        "word": "prioritizing",
+        "start": 270.12,
+        "end": 270.92
+    },
+    {
+        "word": "my",
+        "start": 270.92,
+        "end": 271.12
+    },
+    {
+        "word": "health.",
+        "start": 271.12,
+        "end": 271.46
+    },
+    {
+        "word": "That's",
+        "start": 272.44,
+        "end": 273.0
+    },
+    {
+        "word": "great",
+        "start": 273.0,
+        "end": 273.2
+    },
+    {
+        "word": "to",
+        "start": 273.2,
+        "end": 273.36
+    },
+    {
+        "word": "hear,",
+        "start": 273.36,
+        "end": 273.58
+    },
+    {
+        "word": "Mr.",
+        "start": 273.64,
+        "end": 273.78
+    },
+    {
+        "word": "Johnson.",
+        "start": 273.9,
+        "end": 274.24
+    },
+    {
+        "word": "Lifestyle",
+        "start": 274.66,
+        "end": 275.22
+    },
+    {
+        "word": "changes",
+        "start": 275.22,
+        "end": 275.56
+    },
+    {
+        "word": "can",
+        "start": 275.56,
+        "end": 275.96
+    },
+    {
+        "word": "have",
+        "start": 275.96,
+        "end": 276.12
+    },
+    {
+        "word": "a",
+        "start": 276.12,
+        "end": 276.2
+    },
+    {
+        "word": "significant",
+        "start": 276.2,
+        "end": 276.58
+    },
+    {
+        "word": "impact",
+        "start": 276.58,
+        "end": 277.02
+    },
+    {
+        "word": "on",
+        "start": 277.02,
+        "end": 277.36
+    },
+    {
+        "word": "overall",
+        "start": 277.36,
+        "end": 277.68
+    },
+    {
+        "word": "well",
+        "start": 277.68,
+        "end": 277.94
+    },
+    {
+        "word": "-being.",
+        "start": 277.94,
+        "end": 278.18
+    },
+    {
+        "word": "Please",
+        "start": 278.32,
+        "end": 278.78
+    },
+    {
+        "word": "remember",
+        "start": 278.78,
+        "end": 279.06
+    },
+    {
+        "word": "to",
+        "start": 279.06,
+        "end": 279.36
+    },
+    {
+        "word": "listen",
+        "start": 279.36,
+        "end": 279.6
+    },
+    {
+        "word": "to",
+        "start": 279.6,
+        "end": 279.84
+    },
+    {
+        "word": "your",
+        "start": 279.84,
+        "end": 279.98
+    },
+    {
+        "word": "body",
+        "start": 279.98,
+        "end": 280.24
+    },
+    {
+        "word": "and",
+        "start": 280.24,
+        "end": 280.46
+    },
+    {
+        "word": "avoid",
+        "start": 280.46,
+        "end": 280.66
+    },
+    {
+        "word": "any",
+        "start": 280.66,
+        "end": 280.98
+    },
+    {
+        "word": "activities",
+        "start": 280.98,
+        "end": 281.44
+    },
+    {
+        "word": "that",
+        "start": 281.44,
+        "end": 281.82
+    },
+    {
+        "word": "exacerbate",
+        "start": 281.82,
+        "end": 282.4
+    },
+    {
+        "word": "your",
+        "start": 282.4,
+        "end": 282.52
+    },
+    {
+        "word": "symptoms.",
+        "start": 282.52,
+        "end": 282.86
+    },
+    {
+        "word": "I'll",
+        "start": 283.54,
+        "end": 284.1
+    },
+    {
+        "word": "definitely",
+        "start": 284.1,
+        "end": 284.34
+    },
+    {
+        "word": "keep",
+        "start": 284.34,
+        "end": 284.74
+    },
+    {
+        "word": "that",
+        "start": 284.74,
+        "end": 284.98
+    },
+    {
+        "word": "in",
+        "start": 284.98,
+        "end": 285.14
+    },
+    {
+        "word": "mind,",
+        "start": 285.14,
+        "end": 285.42
+    },
+    {
+        "word": "doctor.",
+        "start": 285.52,
+        "end": 285.74
+    },
+    {
+        "word": "Thank",
+        "start": 286.08,
+        "end": 286.64
+    },
+    {
+        "word": "you",
+        "start": 286.64,
+        "end": 286.76
+    },
+    {
+        "word": "for",
+        "start": 286.76,
+        "end": 286.86
+    },
+    {
+        "word": "your",
+        "start": 286.86,
+        "end": 287.02
+    },
+    {
+        "word": "guidance",
+        "start": 287.02,
+        "end": 287.38
+    },
+    {
+        "word": "and",
+        "start": 287.38,
+        "end": 287.68
+    },
+    {
+        "word": "support",
+        "start": 287.68,
+        "end": 287.98
+    },
+    {
+        "word": "throughout",
+        "start": 287.98,
+        "end": 288.36
+    },
+    {
+        "word": "this",
+        "start": 288.36,
+        "end": 288.66
+    },
+    {
+        "word": "process.",
+        "start": 288.66,
+        "end": 289.1
+    },
+    {
+        "word": "It's",
+        "start": 289.52,
+        "end": 290.08
+    },
+    {
+        "word": "reassuring",
+        "start": 290.08,
+        "end": 290.56
+    },
+    {
+        "word": "to",
+        "start": 290.56,
+        "end": 290.74
+    },
+    {
+        "word": "know",
+        "start": 290.74,
+        "end": 290.96
+    },
+    {
+        "word": "that",
+        "start": 290.96,
+        "end": 291.2
+    },
+    {
+        "word": "I'm",
+        "start": 291.2,
+        "end": 291.38
+    },
+    {
+        "word": "in",
+        "start": 291.38,
+        "end": 291.44
+    },
+    {
+        "word": "good",
+        "start": 291.44,
+        "end": 291.64
+    },
+    {
+        "word": "hands.",
+        "start": 291.64,
+        "end": 292.06
+    },
+    {
+        "word": "You're",
+        "start": 292.84,
+        "end": 293.4
+    },
+    {
+        "word": "very",
+        "start": 293.4,
+        "end": 293.6
+    },
+    {
+        "word": "welcome,",
+        "start": 293.6,
+        "end": 294.0
+    },
+    {
+        "word": "Mr.",
+        "start": 294.08,
+        "end": 294.22
+    },
+    {
+        "word": "Johnson.",
+        "start": 294.32,
+        "end": 294.32
+    },
+    {
+        "word": "It's",
+        "start": 294.92,
+        "end": 295.44
+    },
+    {
+        "word": "my",
+        "start": 295.44,
+        "end": 295.54
+    },
+    {
+        "word": "duty",
+        "start": 295.54,
+        "end": 295.76
+    },
+    {
+        "word": "to",
+        "start": 295.76,
+        "end": 296.02
+    },
+    {
+        "word": "provide",
+        "start": 296.02,
+        "end": 296.24
+    },
+    {
+        "word": "you",
+        "start": 296.24,
+        "end": 296.52
+    },
+    {
+        "word": "with",
+        "start": 296.52,
+        "end": 296.66
+    },
+    {
+        "word": "the",
+        "start": 296.66,
+        "end": 296.76
+    },
+    {
+        "word": "best",
+        "start": 296.76,
+        "end": 296.96
+    },
+    {
+        "word": "care",
+        "start": 296.96,
+        "end": 297.18
+    },
+    {
+        "word": "possible.",
+        "start": 297.18,
+        "end": 297.56
+    },
+    {
+        "word": "Once",
+        "start": 297.82,
+        "end": 298.28
+    },
+    {
+        "word": "we",
+        "start": 298.28,
+        "end": 298.42
+    },
+    {
+        "word": "have",
+        "start": 298.42,
+        "end": 298.58
+    },
+    {
+        "word": "the",
+        "start": 298.58,
+        "end": 298.7
+    },
+    {
+        "word": "results",
+        "start": 298.7,
+        "end": 298.98
+    },
+    {
+        "word": "of",
+        "start": 298.98,
+        "end": 299.16
+    },
+    {
+        "word": "the",
+        "start": 299.16,
+        "end": 299.2
+    },
+    {
+        "word": "additional",
+        "start": 299.2,
+        "end": 299.52
+    },
+    {
+        "word": "tests,",
+        "start": 299.52,
+        "end": 299.94
+    },
+    {
+        "word": "we",
+        "start": 300.16,
+        "end": 300.62
+    },
+    {
+        "word": "can",
+        "start": 300.62,
+        "end": 300.78
+    },
+    {
+        "word": "schedule",
+        "start": 300.78,
+        "end": 301.1
+    },
+    {
+        "word": "a",
+        "start": 301.1,
+        "end": 301.28
+    },
+    {
+        "word": "follow",
+        "start": 301.28,
+        "end": 301.54
+    },
+    {
+        "word": "-up",
+        "start": 301.54,
+        "end": 301.66
+    },
+    {
+        "word": "appointment",
+        "start": 301.66,
+        "end": 302.0
+    },
+    {
+        "word": "to",
+        "start": 302.0,
+        "end": 302.24
+    },
+    {
+        "word": "discuss",
+        "start": 302.24,
+        "end": 302.52
+    },
+    {
+        "word": "the",
+        "start": 302.52,
+        "end": 302.72
+    },
+    {
+        "word": "findings",
+        "start": 302.72,
+        "end": 303.02
+    },
+    {
+        "word": "and",
+        "start": 303.02,
+        "end": 303.26
+    },
+    {
+        "word": "determine",
+        "start": 303.26,
+        "end": 303.62
+    },
+    {
+        "word": "the",
+        "start": 303.62,
+        "end": 303.88
+    },
+    {
+        "word": "next",
+        "start": 303.88,
+        "end": 304.08
+    },
+    {
+        "word": "course",
+        "start": 304.08,
+        "end": 304.28
+    },
+    {
+        "word": "of",
+        "start": 304.28,
+        "end": 304.52
+    },
+    {
+        "word": "action.",
+        "start": 304.52,
+        "end": 304.78
+    },
+    {
+        "word": "I",
+        "start": 305.56,
+        "end": 306.08
+    },
+    {
+        "word": "appreciate",
+        "start": 306.08,
+        "end": 306.44
+    },
+    {
+        "word": "your",
+        "start": 306.44,
+        "end": 306.76
+    },
+    {
+        "word": "prompt",
+        "start": 306.76,
+        "end": 307.08
+    },
+    {
+        "word": "attention,",
+        "start": 307.08,
+        "end": 307.38
+    },
+    {
+        "word": "doctor.",
+        "start": 307.64,
+        "end": 307.9
+    },
+    {
+        "word": "I'll",
+        "start": 308.2,
+        "end": 308.72
+    },
+    {
+        "word": "eagerly",
+        "start": 308.72,
+        "end": 309.12
+    },
+    {
+        "word": "await",
+        "start": 309.12,
+        "end": 309.3
+    },
+    {
+        "word": "the",
+        "start": 309.3,
+        "end": 309.52
+    },
+    {
+        "word": "results",
+        "start": 309.52,
+        "end": 309.82
+    },
+    {
+        "word": "and",
+        "start": 309.82,
+        "end": 310.08
+    },
+    {
+        "word": "look",
+        "start": 310.08,
+        "end": 310.24
+    },
+    {
+        "word": "forward",
+        "start": 310.24,
+        "end": 310.68
+    },
+    {
+        "word": "to",
+        "start": 310.68,
+        "end": 310.88
+    },
+    {
+        "word": "our",
+        "start": 310.88,
+        "end": 311.0
+    },
+    {
+        "word": "next",
+        "start": 311.0,
+        "end": 311.22
+    },
+    {
+        "word": "meeting.",
+        "start": 311.22,
+        "end": 311.56
+    },
+    {
+        "word": "Thank",
+        "start": 311.86,
+        "end": 312.38
+    },
+    {
+        "word": "you",
+        "start": 312.38,
+        "end": 312.52
+    },
+    {
+        "word": "again",
+        "start": 312.52,
+        "end": 312.72
+    },
+    {
+        "word": "for",
+        "start": 312.72,
+        "end": 312.92
+    },
+    {
+        "word": "your",
+        "start": 312.92,
+        "end": 313.06
+    },
+    {
+        "word": "professionalism",
+        "start": 313.06,
+        "end": 313.86
+    },
+    {
+        "word": "and",
+        "start": 313.86,
+        "end": 313.98
+    },
+    {
+        "word": "care.",
+        "start": 313.98,
+        "end": 314.28
+    },
+    {
+        "word": "It's",
+        "start": 315.18,
+        "end": 315.7
+    },
+    {
+        "word": "my",
+        "start": 315.7,
+        "end": 315.84
+    },
+    {
+        "word": "pleasure,",
+        "start": 315.84,
+        "end": 316.2
+    },
+    {
+        "word": "Mr.",
+        "start": 316.34,
+        "end": 316.62
+    },
+    {
+        "word": "Johnson.",
+        "start": 316.76,
+        "end": 317.08
+    },
+    {
+        "word": "Remember,",
+        "start": 317.16,
+        "end": 317.64
+    },
+    {
+        "word": "if",
+        "start": 317.84,
+        "end": 318.36
+    },
+    {
+        "word": "you",
+        "start": 318.36,
+        "end": 318.48
+    },
+    {
+        "word": "have",
+        "start": 318.48,
+        "end": 318.64
+    },
+    {
+        "word": "any",
+        "start": 318.64,
+        "end": 318.86
+    },
+    {
+        "word": "concerns",
+        "start": 318.86,
+        "end": 319.32
+    },
+    {
+        "word": "or",
+        "start": 319.32,
+        "end": 319.62
+    },
+    {
+        "word": "experience",
+        "start": 319.62,
+        "end": 319.96
+    },
+    {
+        "word": "any",
+        "start": 319.96,
+        "end": 320.4
+    },
+    {
+        "word": "significant",
+        "start": 320.4,
+        "end": 320.82
+    },
+    {
+        "word": "changes",
+        "start": 320.82,
+        "end": 321.3
+    },
+    {
+        "word": "in",
+        "start": 321.3,
+        "end": 321.58
+    },
+    {
+        "word": "your",
+        "start": 321.58,
+        "end": 321.72
+    },
+    {
+        "word": "symptoms,",
+        "start": 321.72,
+        "end": 322.16
+    },
+    {
+        "word": "don't",
+        "start": 322.16,
+        "end": 323.02
+    },
+    {
+        "word": "hesitate",
+        "start": 323.02,
+        "end": 323.24
+    },
+    {
+        "word": "to",
+        "start": 323.24,
+        "end": 323.56
+    },
+    {
+        "word": "reach",
+        "start": 323.56,
+        "end": 323.72
+    },
+    {
+        "word": "out",
+        "start": 323.72,
+        "end": 323.92
+    },
+    {
+        "word": "to",
+        "start": 323.92,
+        "end": 324.04
+    },
+    {
+        "word": "me",
+        "start": 324.04,
+        "end": 324.2
+    },
+    {
+        "word": "or",
+        "start": 324.2,
+        "end": 324.4
+    },
+    {
+        "word": "the",
+        "start": 324.4,
+        "end": 324.52
+    },
+    {
+        "word": "clinic.",
+        "start": 324.52,
+        "end": 324.84
+    },
+    {
+        "word": "We're",
+        "start": 324.96,
+        "end": 325.32
+    },
+    {
+        "word": "here",
+        "start": 325.32,
+        "end": 325.46
+    },
+    {
+        "word": "to",
+        "start": 325.46,
+        "end": 325.62
+    },
+    {
+        "word": "support",
+        "start": 325.62,
+        "end": 325.88
+    },
+    {
+        "word": "you.",
+        "start": 325.88,
+        "end": 326.12
+    },
+    {
+        "word": "Take",
+        "start": 326.42,
+        "end": 326.86
+    },
+    {
+        "word": "care,",
+        "start": 326.86,
+        "end": 327.18
+    },
+    {
+        "word": "and",
+        "start": 327.3,
+        "end": 327.92
+    },
+    {
+        "word": "we'll",
+        "start": 327.92,
+        "end": 328.16
+    },
+    {
+        "word": "be",
+        "start": 328.16,
+        "end": 328.24
+    },
+    {
+        "word": "in",
+        "start": 328.24,
+        "end": 328.38
+    },
+    {
+        "word": "touch",
+        "start": 328.38,
+        "end": 328.62
+    },
+    {
+        "word": "soon.",
+        "start": 328.62,
+        "end": 328.92
+    },
+    {
+        "word": "Thank",
+        "start": 329.7,
+        "end": 330.14
+    },
+    {
+        "word": "you,",
+        "start": 330.14,
+        "end": 330.34
+    },
+    {
+        "word": "doctor.",
+        "start": 330.36,
+        "end": 330.68
+    },
+    {
+        "word": "Take",
+        "start": 331.08,
+        "end": 331.52
+    },
+    {
+        "word": "care",
+        "start": 331.52,
+        "end": 331.78
+    },
+    {
+        "word": "as",
+        "start": 331.78,
+        "end": 332.0
+    },
+    {
+        "word": "well.",
+        "start": 332.0,
+        "end": 332.26
+    },
+    {
+        "word": "And",
+        "start": 332.64,
+        "end": 333.08
+    },
+    {
+        "word": "I'll",
+        "start": 333.08,
+        "end": 333.24
+    },
+    {
+        "word": "be",
+        "start": 333.24,
+        "end": 333.32
+    },
+    {
+        "word": "sure",
+        "start": 333.32,
+        "end": 333.62
+    },
+    {
+        "word": "to",
+        "start": 333.62,
+        "end": 333.8
+    },
+    {
+        "word": "keep",
+        "start": 333.8,
+        "end": 334.0
+    },
+    {
+        "word": "you",
+        "start": 334.0,
+        "end": 334.16
+    },
+    {
+        "word": "updated.",
+        "start": 334.16,
+        "end": 334.54
+    },
+    {
+        "word": "Goodbye",
+        "start": 334.66,
+        "end": 335.06
+    },
+    {
+        "word": "for",
+        "start": 335.06,
+        "end": 335.36
+    },
+    {
+        "word": "now.",
+        "start": 335.36,
+        "end": 335.62
+    },
+    {
+        "word": "Goodbye,",
+        "start": 336.64,
+        "end": 337.08
+    },
+    {
+        "word": "Mr.",
+        "start": 337.16,
+        "end": 337.34
+    },
+    {
+        "word": "Johnson.",
+        "start": 337.5,
+        "end": 337.76
+    },
+    {
+        "word": "Wishing",
+        "start": 338.02,
+        "end": 338.46
+    },
+    {
+        "word": "you",
+        "start": 338.46,
+        "end": 338.6
+    },
+    {
+        "word": "the",
+        "start": 338.6,
+        "end": 338.68
+    },
+    {
+        "word": "best",
+        "start": 338.68,
+        "end": 338.96
+    },
+    {
+        "word": "of",
+        "start": 338.96,
+        "end": 339.1
+    },
+    {
+        "word": "health.",
+        "start": 339.1,
+        "end": 339.3
+    }
+]

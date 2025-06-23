@@ -9,6 +9,7 @@ interface WaveformProps {
   className?: string;
   progress?: number; // 0 to 1
   audioUrl?: string; // Audio URL for Wavesurfer
+  audioType?: string; //
   duration?: number; // Duration in seconds for time markers
   onTimeUpdate?: (currentTime: number) => void;
   onReady?: () => void;
@@ -28,6 +29,7 @@ export function Waveform({
   className,
   progress = 0,
   audioUrl,
+  audioType = 'audio/mp3',
   duration,
   onTimeUpdate,
   onReady,
@@ -57,6 +59,7 @@ export function Waveform({
     fillParent: true,
     normalize: true,
     url: audioUrl,
+    // media: { type: audioType }, // Removed invalid property
     backend: "WebAudio",
     peaks: undefined, // Let Wavesurfer generate peaks automatically
     interact: true,
@@ -64,6 +67,17 @@ export function Waveform({
     autoCenter: true,
     sampleRate: 8000,
   });
+  // For newer WaveSurfer with hooks
+  useEffect(() => {
+    // This effect runs when the audioUrl changes
+    return () => {
+      // This cleanup function runs before the next effect or when component unmounts
+      if (wavesurfer) {
+        wavesurfer.pause();
+        // The new instance will be created automatically by the hook
+      }
+    };
+  }, [audioUrl]);
 
   // Handle when Wavesurfer is ready
   useEffect(() => {

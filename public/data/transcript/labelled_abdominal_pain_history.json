@@ -1,0 +1,380 @@
+[
+    {
+        "speaker": "Doctor",
+        "start": 0.88,
+        "end": 7.72,
+        "text": "Hi, my name's Grace. I'm one of the medical students in the A &E department. Do you mind just confirming your name and date of birth for me? Yeah, it's",
+        "utterance_id": "U1"
+    },
+    {
+        "speaker": "Patient",
+        "start": 7.72,
+        "end": 12.08,
+        "text": "Caroline Martin. It's the 24th of April, 85. Nice",
+        "utterance_id": "U2"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 12.08,
+        "end": 15.2,
+        "text": "to meet you, Caroline. How can I help you today? Yeah,",
+        "utterance_id": "U3"
+    },
+    {
+        "speaker": "Patient",
+        "start": 15.36,
+        "end": 24.86,
+        "text": "I just had this sudden pain that started this morning, just after the school run. It was so severe, I've just come straight here. Oh,",
+        "utterance_id": "U4"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 24.88,
+        "end": 28.18,
+        "text": "I'm sorry to hear it. Have you had some painkillers? Luckily,",
+        "utterance_id": "U5"
+    },
+    {
+        "speaker": "Patient",
+        "start": 28.46,
+        "end": 33.76,
+        "text": "yeah. Triage gave me some, and they certainly have taken off the edge, thank you.",
+        "utterance_id": "U6"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 34.0,
+        "end": 42.96,
+        "text": "Okay, and are you comfortable enough for me to ask you some questions? Yeah, thanks. Fine, if that changes, just let me know, okay? Okay. So, tell me a bit more about this pain. Yeah,",
+        "utterance_id": "U7"
+    },
+    {
+        "speaker": "Patient",
+        "start": 43.18,
+        "end": 55.48,
+        "text": "this morning, it was a few hours ago, I was dropping my son off at school, and it suddenly came on in my tummy, sort of at the centre but high up.",
+        "utterance_id": "U8"
+    },
+    {
+        "speaker": "Patient",
+        "start": 56.26,
+        "end": 61.62,
+        "text": "And with it... Within half an hour, it got so worse that I've just come straight",
+        "utterance_id": "U9"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 61.62,
+        "end": 77.7,
+        "text": "here. Okay. Well, let me find out a bit more about it. So, you said it came on quite suddenly this morning, over about half an hour, and it's at the top of your tummy. Yes. Is it going anywhere else? It's actually spreading around to my back. Okay. And what does the pain feel like?",
+        "utterance_id": "U10"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 80.72,
+        "end": 95.04,
+        "text": "Sharp, gripping. Okay. And the pain, is it there all the time, or coming and going? Constant. Constant. Okay. And if you had to grade the pain out of 10, with 10 out of 10 being the worst pain you've ever had, where would you place it? When it",
+        "utterance_id": "U11"
+    },
+    {
+        "speaker": "Patient",
+        "start": 95.04,
+        "end": 103.2,
+        "text": "first came on, definitely 10 out of 10, but those painkillers, thank goodness, have really taken off the edge. Okay. And what would you say",
+        "utterance_id": "U12"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 103.2,
+        "end": 115.08,
+        "text": "it is now? I'd go six, yeah. Okay. So, it's still pretty uncomfortable. And is there anything other than the painkillers which is making that discomfort better or worse? Yeah, I find",
+        "utterance_id": "U13"
+    },
+    {
+        "speaker": "Patient",
+        "start": 115.08,
+        "end": 127.0,
+        "text": "if I lean forward... I'm not sure I'm doing it right. It's a bit better. But certainly, it's much worse when I breathe deeply. Okay. And, yeah, just when moving around.",
+        "utterance_id": "U14"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 127.42,
+        "end": 130.92,
+        "text": "Okay. And have you noticed any other symptoms with the pain?",
+        "utterance_id": "U15"
+    },
+    {
+        "speaker": "Patient",
+        "start": 132.3,
+        "end": 151.74,
+        "text": "When I breathe deeply, it's sort of, it's catching my breath because I just can't as much. I'm feeling really sickly, and I have been sick a few times. Okay. Also, I'm not sure if I have a fever, but I",
+        "utterance_id": "U16"
+    },
+    {
+        "speaker": "Patient",
+        "start": 151.74,
+        "end": 153.74,
+        "text": "am feeling hot and sweaty.",
+        "utterance_id": "U17"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 154.36,
+        "end": 183.68,
+        "text": "Okay. So, you're feeling pretty unwell with it, aren't you? Yeah. Let me ask a few more questions, see if we can figure out what's going on. So, you mentioned there about vomiting, about being sick. Has there been any blood in the vomit at all? No, no. Anything that looks like coffee grounds? No. Have you had any indigestion or reflux? Neither, no. Any difficulty swallowing? No. No. No. No. Tell me, does that feel swollen or bloated at all? No, just painful. Just painful. And your bowels, any changes there?",
+        "utterance_id": "U18"
+    },
+    {
+        "speaker": "Patient",
+        "start": 184.44,
+        "end": 185.88,
+        "text": "Fine. I mean, I go",
+        "utterance_id": "U19"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 185.88,
+        "end": 203.22,
+        "text": "every morning, and that was fine this morning. Okay. So, any blood in your stool this morning? No, no. Any diarrhea? No. Okay. And can I ask, what about going for a wee? Any changes there? No, all fine. Okay. Have you had any weight loss recently? I have.",
+        "utterance_id": "U20"
+    },
+    {
+        "speaker": "Patient",
+        "start": 203.84,
+        "end": 213.18,
+        "text": "I've lost, I'm very proud, a couple of kilograms. I've lost a few pounds over the last month, but that was purely intentional. I've been on a fitness regime, needed to lose some weight.",
+        "utterance_id": "U21"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 213.54,
+        "end": 218.06,
+        "text": "Okay. And do you have periods at all? Well, I'm",
+        "utterance_id": "U22"
+    },
+    {
+        "speaker": "Patient",
+        "start": 218.06,
+        "end": 223.78,
+        "text": "on the combined contraceptive pill, so yeah, every three weeks.",
+        "utterance_id": "U23"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 224.26,
+        "end": 257.68,
+        "text": "And when was your last period? Yeah, three weeks ago. It's all fine. All fine. Any unscheduled bleeding? No, no. Okay. And any chance you could be pregnant? No. Okay, fine. No. And it doesn't look like it to me, but have you noticed any yellowing of the skin or yellowing around the eyes? No, no, no, no. Any itching of the skin at all? No. Okay, fine. And I just wanted to check, because you mentioned that the pain's a little worse when you're breathing in. Yeah. Other than when you take a deep breath, is your breathing okay? It's absolutely fine. It's",
+        "utterance_id": "U24"
+    },
+    {
+        "speaker": "Patient",
+        "start": 257.68,
+        "end": 261.82,
+        "text": "just when I breathe deeply, it'll catch it, but no, absolutely fine otherwise,",
+        "utterance_id": "U25"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 262.12,
+        "end": 281.5,
+        "text": "thank you. Have you had a cough at all? No. No. Any pain higher up in your chest? No. Any palpitations? No, no. Any feeling dizzy or lightheaded? No, no. Okay. You give me loads of information there. That's pretty good. I just wanted to double check when you last ate, when you last had something to eat. I",
+        "utterance_id": "U26"
+    },
+    {
+        "speaker": "Patient",
+        "start": 281.5,
+        "end": 286.9,
+        "text": "know I've been on a fitness regime, but we did have a treat last night, so we all had fish and chips, yeah.",
+        "utterance_id": "U27"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 286.96,
+        "end": 289.44,
+        "text": "Okay. And have you had anything to eat this morning? Oh,",
+        "utterance_id": "U28"
+    },
+    {
+        "speaker": "Patient",
+        "start": 289.46,
+        "end": 292.62,
+        "text": "no. School run. I was quick, swig of coffee out the house.",
+        "utterance_id": "U29"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 293.38,
+        "end": 324.72,
+        "text": "Okay. Look at you. I'm going to do a little bit of a quick summary of what I've said there. Let me know if you feel that I've missed anything. So you mentioned that from this morning, really from the school run, you've suddenly developed this quite severe pain, gripping sharp in your upper tummy, going through to your back. It's making you feel quite and well, quite sweaty, and you vomited a few times with it as well. But otherwise, you've been okay the last few days. This has just come on quite suddenly. Is that right? Yes. Okay. And do you have any thoughts yourself about what's going on? I'm",
+        "utterance_id": "U30"
+    },
+    {
+        "speaker": "Patient",
+        "start": 324.72,
+        "end": 329.14,
+        "text": "not sure what's going on, to be honest, but I don't know. I'm thinking, could it be a stomach bug?",
+        "utterance_id": "U31"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 329.88,
+        "end": 343.2,
+        "text": "Okay. I mean, have you traveled anywhere recently? No. No. Okay. And is anyone else at home, do they have anything like a stomach bug or? No. Okay. And is there anything in particular that you're concerned about?",
+        "utterance_id": "U32"
+    },
+    {
+        "speaker": "Patient",
+        "start": 344.98,
+        "end": 356.34,
+        "text": "Yeah, the pain, really. I mean, those, you know, painkillers have really helped, but I'm just worried when they wear off, you know, the pain will come back. Yeah, that's",
+        "utterance_id": "U33"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 356.34,
+        "end": 366.88,
+        "text": "worrying. Okay. And if that happens, please do let me know. I will. And in terms of your expectations coming to the A &E department today, did you have anything in particular in mind that you were wanting us to do? I suppose,",
+        "utterance_id": "U34"
+    },
+    {
+        "speaker": "Patient",
+        "start": 367.06,
+        "end": 375.72,
+        "text": "you know, when the pain comes back again, when those painkillers wear off, to get that under control and really just to find out what is",
+        "utterance_id": "U35"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 375.72,
+        "end": 387.2,
+        "text": "going on. Yeah, absolutely. I'm sure we can help with that. Thank you. So, Caroline, I've asked you loads of questions already. I'm just wondering, what's going on? I know you've been on the A &E already, but I've not met you before, so I just need a bit more about your background, if that's all right. Okay. Do you have any other medical conditions?",
+        "utterance_id": "U36"
+    },
+    {
+        "speaker": "Patient",
+        "start": 389.18,
+        "end": 389.62,
+        "text": "Well,",
+        "utterance_id": "U37"
+    },
+    {
+        "speaker": "Patient",
+        "start": 389.62,
+        "end": 404.02,
+        "text": "a couple of months ago, I did come to A &E, and they diagnosed me with gallstones. I mean, but to be honest, I've been really good cutting down fat in my diet, and that pain has gone. But",
+        "utterance_id": "U38"
+    },
+    {
+        "speaker": "Patient",
+        "start": 404.02,
+        "end": 412.02,
+        "text": "to be honest, that pain was like over here on the right -hand side. This is different, feels different. But",
+        "utterance_id": "U39"
+    },
+    {
+        "speaker": "Patient",
+        "start": 412.02,
+        "end": 414.12,
+        "text": "this pain now is far worse.",
+        "utterance_id": "U40"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 414.62,
+        "end": 422.18,
+        "text": "Okay. And can I ask, did they do a scan at all when you were diagnosed with gallstones? They did, you know, like that",
+        "utterance_id": "U41"
+    },
+    {
+        "speaker": "Patient",
+        "start": 422.18,
+        "end": 424.94,
+        "text": "jelly scan they do when you're pregnant. Yeah, you can",
+        "utterance_id": "U42"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 424.94,
+        "end": 430.08,
+        "text": "ultrasound. Yes. Lovely. I'll be able to see that. And do you have any other medical conditions at all?",
+        "utterance_id": "U43"
+    },
+    {
+        "speaker": "Patient",
+        "start": 430.98,
+        "end": 438.54,
+        "text": "I mean, when I was pregnant, I had diabetes, but just when I was pregnant and all that blood sugar settled, you",
+        "utterance_id": "U44"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 438.54,
+        "end": 460.64,
+        "text": "know, straight after. Lovely. Yeah. And I know you mentioned that you take the combined pill. Do you take any other medications? No, no. Okay. Are you allergic to anything? No. And what's your home situation? Who do you live with? My husband. I've got two little children. Okay. And are you in work? No. Stay at home, Mum. And do you smoke at all? No, never. And do you drink at all? Any alcohol?",
+        "utterance_id": "U45"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 461.52,
+        "end": 462.14,
+        "text": "I am",
+        "utterance_id": "U46"
+    },
+    {
+        "speaker": "Patient",
+        "start": 462.14,
+        "end": 479.78,
+        "text": "a heavy drinker, so I'm currently drinking three bottles of wine over the weekend. Mm -hmm. And I don't drink during the week. But I've spoken to the GP, and he's given me some advice, so I'm going to try and start cutting down, you know, over the next couple of weeks.",
+        "utterance_id": "U47"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 480.02,
+        "end": 488.36,
+        "text": "Okay. Great. And can I just check, this last weekend, did you drink anything different to usual, or was it the usual amount? No, I did drink my usual",
+        "utterance_id": "U48"
+    },
+    {
+        "speaker": "Patient",
+        "start": 488.36,
+        "end": 490.04,
+        "text": "three bottles, yeah. Okay.",
+        "utterance_id": "U49"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 490.24,
+        "end": 524.22,
+        "text": "And can I just check and I ask everybody, any recreational drugs at all? No, never. Okay. Fine. Let me just summarize again for you to make sure we've not missed anything. So you've come to the A &E department today because over the course of the morning, you developed this severe upper pain in your tummy going through to your back. It's making you feel quite sweaty. You've been sick a few times. Yes. You're a little worried it could be something like a stomach bug, and understandably, the pain is quite a concern, although we've got that under control at the moment. Yeah. Is there anything else that you think I've missed there? No, that's exactly what's",
+        "utterance_id": "U50"
+    },
+    {
+        "speaker": "Patient",
+        "start": 524.22,
+        "end": 526.48,
+        "text": "going on, and yeah, exactly. Okay.",
+        "utterance_id": "U51"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 526.48,
+        "end": 529.14,
+        "text": "And do you have any questions for me? No, thank",
+        "utterance_id": "U52"
+    },
+    {
+        "speaker": "Patient",
+        "start": 529.14,
+        "end": 532.44,
+        "text": "you. Thank you. Just, yeah, just to find out what's going on, yeah.",
+        "utterance_id": "U53"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 532.84,
+        "end": 537.3,
+        "text": "Fine. Okay. So that's the end of my questions. So thank you for your time, Caroline. Thank you.",
+        "utterance_id": "U54"
+    }
+]

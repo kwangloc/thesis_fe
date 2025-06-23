@@ -1,0 +1,74 @@
+{
+  "utterances": {
+    "U1": "Doctor: What seems to be the trouble, Mr. Burke?",
+    "U2": "Patient: I feel terrible.",
+    "U3": "Patient: My body aches. I have a runny nose and a bad cough.",
+    "U4": "Patient: I see.",
+    "U5": "Doctor: Yes, your temperature is very high, too.",
+    "U6": "Doctor: You have a fever. It looks like you have the flu. Do you have any allergies? I don't think so. Okay, great. I'm going to prescribe some medicine. Please take it twice every day. Once in the morning and once before bed. You should feel better in a few days. Great, thank",
+    "U7": "Patient: you."
+  },
+  "S": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "Patient reports feeling terrible, with body aches, runny nose, and a bad cough.",
+      "utterance_id": "U3"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient has a fever of 103C and a runny nose and cough.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "No allergies were noted.",
+      "utterance_id": "U6"
+    }
+  ],
+  "O": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "Physical examination revealed a fever and body aches.",
+      "utterance_id": "U6"
+    }
+  ],
+  "A": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient is suspected of having the flu.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient is prescribed two doses of flu medicine twice daily.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The patient is advised to take it twice daily in the morning and once before bed.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The primary diagnosis is the flu, with the patient's symptoms suggestive of the virus.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The prognosis is good with medication and supportive care.",
+      "utterance_id": "U6"
+    }
+  ],
+  "P": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient is advised to take two doses of flu medicine twice daily.",
+      "utterance_id": "U6"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient is advised to monitor his symptoms closely and report any changes.",
+      "utterance_id": "U6"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "utterances": {
+    "U1": "Doctor: Hi there, my name's Leah, I'm one of the junior doctors working in the GP surgery. Is it okay if I just check your name and date of birth please? Yeah,",
+    "U2": "Patient: so it's Camilla, Camilla Weldon, and it's the 3rd of May 1977. Nice to meet you. Is it okay if I call you Camilla today? Yeah, of course. Fabulous.",
+    "U3": "Doctor: So how can I help you today Camilla?",
+    "U4": "Patient: Yeah, so the doctor I saw last week, he rang me yesterday to say that I had some blood tests and he just said that the blood tests said I had diabetes. So it was just to come and have a chat to you about, really about that. Okay,",
+    "U5": "Doctor: so how are you feeling about being told that news over the phone?",
+    "U6": "Patient: To be honest, I was relieved because at least I sort of now know what's going on.",
+    "U7": "Patient: But I have to say I'm a little bit anxious because I don't know a lot about diabetes but I'm not sure what's going on. I know that it is caused by lack of exercise and not eating very well and I've got a lot of work to do if that's the case. Okay,",
+    "U8": "Doctor: and was there anything that you were particularly worried about that we might be talking about today?",
+    "U9": "Patient: Yeah, it's just, so my colleague at work had mentioned that he has to have quite regular tests for his eyes and he's got to have a lot of blood tests. But also for his feet. And he talks about long -termly it could lead to him losing sensation in his feet but also him losing his eyesight and that really does obviously worry me.",
+    "U10": "Doctor: Is that something you'd like to talk a bit more about today? Yeah, if",
+    "U11": "Patient: you've got the time, yeah. Okay,",
+    "U12": "Doctor: okay, not to worry. So I think to start off with it would be helpful if I could understand a little bit about your general health and a bit about some of the lifestyle factors that you mentioned, maybe a bit of work to do with. Okay. Just so I can understand sort of where you're coming from and how we can advise you with some help in managing the diabetes. Is that okay? Thank you, yes, yes. Okay, so what symptoms did you come in with initially? I know you mentioned you felt a bit tired but what kind of things were you experiencing when you saw the GP to start with?",
+    "U13": "Patient: I was feeling tired and just quite washed out. Okay. But over a few months I had had, sort of like thrush and some urine infections so I did mention that to the doctor as well. Okay, and was",
+    "U14": "Doctor: that unusual for you to have those infections? Yeah. Okay.",
+    "U15": "Doctor: Thank you for that, it's been helpful to understand a little bit about your kind of health in general. That's okay. A bit more about you. Hopefully that will help us give some more information in terms of the diabetes. So I suppose we just need to talk a little bit more about the diabetes itself and what that actually means for you. Yeah. So in people who don't have diabetes, what happens when you eat food is it's broken down into sugar molecules called glucose. And that sugar goes round and round the body to places where it's needed to be used.",
+    "U16": "Doctor: And in order to store the glucose in the cells where we need to use it, there's a hormone called insulin. Have you heard of that before? I have heard of it, yes. Okay. So insulin's job is to move sugar from the blood into cells and to store it to be used for later.",
+    "U17": "Doctor: So what happens in diabetes is because there's lots and lots of sugar going round all of the time, the body stops really recognising that there's sugar there. It almost becomes normal for the sugar. It's not going to be that high. So the body stops making as much insulin because it doesn't think it needs to move that sugar into the cells. Another thing that can happen is because there's so much sugar being moved all the time into the cells, the cells sort of stop paying attention to insulin anyway. So even if we do make some insulin, it doesn't really do its job properly anymore. Wow. Does that make sense? Yeah. Okay. Are you happy if I just kind of ask you to summarise what we've just gone through just to make sure I've explained it properly? Me too. I'll do my best.",
+    "U18": "Patient: But what I understand is that so we eat food and it gets broken down to sugar, glucose in the blood, and that's carried by insulin to cells that need the sugar to do their functions. But diabetes, we have too much sugar in the blood, and something happens. Something happens to the body and that becomes the normal for the body. So it doesn't really think it's got too much. So it's producing less insulin. So insulin obviously is not there to move it. But then also it affects the cells. The cells suddenly just don't pay any attention to insulin. So they just don't even accept any of the sugar. Hence, that buildup is there.",
+    "U19": "Doctor: So it's the sugar being high in the blood that causes the problems, some of the problems that it sounds like your colleague might be experiencing. So we can think about the complications of diabetes in sort of a short term and then a longer term kind of time period. Okay. So some of the short term problems that patients with diabetes commonly experience are infections. So when you mentioned earlier about the water infections in the fresh. Yes. Yes. It may be that that was to do with the fact that you were on a diet. Yes. And you had quite high blood sugars at the time. Oh",
+    "U20": "Patient: my goodness. Okay. Yeah. Yeah. So",
+    "U21": "Doctor: what happens when there's lots of sugar in the blood is the kidneys filter the blood and some of that sugar gets into the urine, which means that bacteria which love sugar can use that sugar to grow and cause the infections. Infections. Okay. Okay. Mm -hmm. Mm -hmm. And then when we move on to thinking about the longer term complications, it causes problems because the glucose going round and round in the blood damages the blood vessels. So there's a selection of small blood vessels and some bigger blood vessels that that causes problems for. So in the small blood vessels, they're the blood vessels that are found behind the eyes and the blood vessels that supply the nerves to the fingers and toes. And also the blood vessels in the kidneys are quite small as well. Okay. So when you mentioned earlier about your colleague getting his eyes checked and his feet checked to check he could still feel things properly. That's probably to make sure that he wasn't getting those complications of diabetes. I",
+    "U22": "Patient: understand. It makes sense. Yes. Thank you. Thank you.",
+    "U23": "Doctor: And then the other things are sort of in the bigger blood vessels. So there's some quite big blood vessels in the brain and there's some big blood vessels in the heart as well. So if those blood vessels get damaged, they can cause things like strokes and problems with the heart, so heart disease and heart attacks potentially. So hopefully we can talk through how we can manage the condition a little bit better today. And try and reduce those risks as much as possible. Yes. Of course. Of course. Does that make sense so far? Yeah.",
+    "U24": "Patient: I think that's, yeah, it does make sense. Thank you. Thank you.",
+    "U25": "Doctor: Thank you. What I'll do is I'll give you a few leaflets for you to take away as well so you can have a little read between now and when you're next to see us. Okay. And if you've got any questions, please just give us a call or you can book in to speak to one of the GPs again.",
+    "U26": "Patient: Thank you so much. Thank you. All right. Lovely to meet you. Thank you. You too. Thank you for your time. Thank you."
+  },
+  "S": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient, a female, reports feeling tired and anxious, with no knowledge of diabetes.",
+      "utterance_id": "U1"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "She was diagnosed with diabetes over the phone last week.",
+      "utterance_id": "U4"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "She has a history of diabetes and is concerned about the impact on her eyes and feet.",
+      "utterance_id": "U7"
+    }
+  ],
+  "O": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "Initial symptoms included fatigue and feeling tired.",
+      "utterance_id": "U26"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient was diagnosed with diabetes due to lack of exercise and poor eating habits.",
+      "utterance_id": "U7"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The patient's symptoms were initially reported as fatigue and feeling tired.",
+      "utterance_id": "U26"
+    }
+  ],
+  "A": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The primary diagnosis is diabetes, with potential implications for eye and foot symptoms.",
+      "utterance_id": "U26"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient's symptoms were initially reported as fatigue and feeling tired.",
+      "utterance_id": "U26"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The prognosis is cautiously optimistic given the patient's current lifestyle and the presence of a history of diabetes.",
+      "utterance_id": "U26"
+    }
+  ],
+  "P": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The management plan includes regular blood tests for the eyes and feet, monitoring for signs of diabetes and managing the disease with diet and exercise.",
+      "utterance_id": "U26"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient will be advised to maintain a healthy lifestyle and follow-up appointments to monitor the disease and manage any changes.",
+      "utterance_id": "U26"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The patient will be encouraged to maintain a healthy lifestyle and follow-up appointments to monitor the disease and manage any changes.",
+      "utterance_id": "U26"
+    }
+  ]
+}

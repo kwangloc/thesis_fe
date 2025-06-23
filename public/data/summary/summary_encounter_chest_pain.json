@@ -1,0 +1,110 @@
+{
+  "utterances": {
+    "U1": "Doctor: Good morning, Mr. Johnson. How are you feeling today?",
+    "U2": "Patient: Good morning, doctor. I've been experiencing some pain in my chest and shortness of breath. It's been bothering me for a few weeks now.",
+    "U3": "Doctor: I'm glad you came in. It's important not to ignore any chest -related symptoms. Let me ask you a few questions to better understand your condition. Have you noticed if these symptoms occur during any specific activities or times of the day?",
+    "U4": "Patient: Yes. I've noticed that it happens mostly when I push myself physically, like when I'm climbing stairs or walking fast.",
+    "U5": "Doctor: All right. Do you have any history of heart disease in your family?",
+    "U6": "Patient: Not that I'm aware of. My parents and siblings don't have any heart -related issues.",
+    "U7": "Doctor: Based on your symptoms and their relation to physical activity, it's important to consider your heart health. I'd like to order an electrocardiogram, also called ECG, to get a baseline assessment of your heart health. I'd like to order an electrocardiogram, also called ECG, to get a baseline assessment of your heart's electrical activity. It will help us determine if any abnormalities are present.",
+    "U8": "Patient: I trust your judgment, doctor. Please go ahead with the necessary tests. I want to make sure everything is okay.",
+    "U9": "Doctor: Thank you for your trust, Mr. Johnson. In the meantime, I recommend making some lifestyle changes to support your heart health. Have you been following a balanced diet and engaging in regular exercise?",
+    "U10": "Patient: I must admit my diet hasn't been the healthiest lately, and my exercise routine is almost non -existent due to work.",
+    "U11": "Doctor: I'm not sure if I'm doing it right, but I'm sure I'll be doing it right. It's never too late to make positive changes, Mr. Johnson. A heart -healthy diet with fruits, vegetables, whole grains, and lean proteins, along with regular physical activity, can significantly improve your heart's condition. It's also essential to manage stress and get enough sleep.",
+    "U12": "Patient: That would be great, doctor. I'm ready to commit to a healthier lifestyle. Are there any medications I should be taking or any other treatments we should consider?",
+    "U13": "Doctor: We'll wait for the ECG results before discussing specific medications, as they will depend on the findings, if necessary. We may consider prescribing medications to manage your symptoms and support your heart health in the meantime. I encourage you to take it easy and avoid any heavy activities.",
+    "U14": "Patient: I appreciate your guidance, doctor. I'll be cautious and prioritize my health. Is there anything else I should be aware of or any warning signs I should watch out for?",
+    "U15": "Doctor: Some warning signs to watch out for include severe heart disease, severe chest pain or pressure, pain radiating to your arms or jaw, and sudden shortness of breath even at rest. If you experience any of these symptoms, it's crucial to seek immediate medical attention.",
+    "U16": "Patient: I'll keep a close eye on those symptoms and won't hesitate to reach out for help. Thank you for your time and expertise.",
+    "U17": "Doctor: You're welcome, Mr. Johnson. Remember, we're here to support you every step of the way. Let's focus on getting your tests scheduled and making those positive lifestyle changes. We'll discuss the results and know -how. We'll take the next steps once we have more information. Take care and feel better.",
+    "U18": "Patient: Thank you, doctor. I appreciate your care and concern. I'll be in touch and follow your advice. Goodbye.",
+    "U19": "Doctor: Goodbye, Mr. Johnson. Take care and stay well.",
+    "U20": "Doctor: Hello again, Mr. Johnson. I have the results of your ECG. And I'm happy to say that your heart rhythm appears normal.",
+    "U21": "Patient: That's a relief to hear, doctor. So does that mean my symptoms are not as bad as I thought? No, doctor. Your heart rhythm is not related to any heart issues.",
+    "U22": "Doctor: While the ECG results are reassuring, we still need to investigate further. To determine the exact cause of your symptoms, other factors like lung function would be contributing, I suggest a few more tests to get a clearer picture.",
+    "U23": "Patient: I understand, doctor. What tests do you recommend?",
+    "U24": "Doctor: I'd like to conduct a pulmonary function test to assess your lung function and a stress test to evaluate your heart's response to physical exertion. These tests will help us gather more information.",
+    "U25": "Patient: All right, doctor. I'll proceed with the tests. I appreciate your thoroughness in finding the cause.",
+    "U26": "Doctor: It's important for us to have a full understanding of your health. Mr. Johnson, these tests will help us rule out any underlying conditions and guide us toward an accurate diagnosis. In the meantime, I encourage you to continue with the lifestyle modifications we discussed earlier.",
+    "U27": "Patient: Absolutely, doctor. I've been making conscious efforts to improve my diet. and incorporate exercise into my routine. It's challenging, but I understand the importance of prioritizing my health.",
+    "U28": "Doctor: That's great to hear, Mr. Johnson. Lifestyle changes can have a significant impact on overall well -being. Please remember to listen to your body and avoid any activities that exacerbate your symptoms.",
+    "U29": "Patient: I'll definitely keep that in mind, doctor. Thank you for your guidance and support throughout this process. It's reassuring to know that I'm in good hands.",
+    "U30": "Doctor: You're very welcome, Mr. Johnson. It's my duty to provide you with the best care possible. Once we have the results of the additional tests, we can schedule a follow -up appointment to discuss the findings and determine the next course of action.",
+    "U31": "Patient: I appreciate your prompt attention, doctor. I'll eagerly await the results and look forward to our next meeting. Thank you again for your professionalism and care.",
+    "U32": "Doctor: It's my pleasure, Mr. Johnson. Remember, if you have any concerns or experience any significant changes in your symptoms, don't hesitate to reach out to me or the clinic. We're here to support you. Take care, and we'll be in touch soon.",
+    "U33": "Patient: Thank you, doctor. Take care as well. And I'll be sure to keep you updated. Goodbye for now.",
+    "U34": "Doctor: Goodbye, Mr. Johnson. Wishing you the best of health."
+  },
+  "S": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient, Mr Johnson, reports experiencing pain in his chest and shortness of breath for a few weeks.",
+      "utterance_id": "U2"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "He has noticed symptoms mainly when he pushes himself physically, like when climbing stairs or walking fast.",
+      "utterance_id": "U4"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "He denies any history of heart disease in his family.",
+      "utterance_id": "U5"
+    }
+  ],
+  "O": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient has a history of heart disease in his family, but his parents and siblings are not.",
+      "utterance_id": "U5"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "He has been following a balanced diet and engaging in regular exercise, which is non -existent due to work.",
+      "utterance_id": "U10"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "He admits his diet has not been the healthiest recently, and his exercise routine is almost non -existent.",
+      "utterance_id": "U10"
+    },
+    {
+      "sentence_idx": "3",
+      "sentence_text": "He is ready to commit to a healthier lifestyle.",
+      "utterance_id": "U12"
+    },
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The primary diagnosis is a heart attack with suspected cardiac abnormalities.",
+      "utterance_id": "U7"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The prognosis depends on the outcome of the ECG and the results of the ECG.",
+      "utterance_id": "U34"
+    }
+  ],
+  "A": [],
+  "P": [
+    {
+      "sentence_idx": "0",
+      "sentence_text": "The patient will be monitored closely for any changes in heart activity or heart rhythm.",
+      "utterance_id": "U7"
+    },
+    {
+      "sentence_idx": "1",
+      "sentence_text": "The patient will be encouraged to make positive lifestyle changes to improve heart health.",
+      "utterance_id": "U9"
+    },
+    {
+      "sentence_idx": "2",
+      "sentence_text": "The patient will be encouraged to commit to a healthy lifestyle and adhere to a balanced diet.",
+      "utterance_id": "U12"
+    },
+    {
+      "sentence_idx": "3",
+      "sentence_text": "The patient will be encouraged to monitor his heart activity closely.",
+      "utterance_id": "U34"
+    }
+  ]
+}

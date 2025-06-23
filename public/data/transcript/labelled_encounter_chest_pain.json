@@ -1,0 +1,240 @@
+[
+    {
+        "speaker": "Doctor",
+        "start": 0.0,
+        "end": 3.38,
+        "text": "Good morning, Mr. Johnson. How are you feeling today?",
+        "utterance_id": "U1"
+    },
+    {
+        "speaker": "Patient",
+        "start": 4.34,
+        "end": 12.58,
+        "text": "Good morning, doctor. I've been experiencing some pain in my chest and shortness of breath. It's been bothering me for a few weeks now.",
+        "utterance_id": "U2"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 13.5,
+        "end": 25.74,
+        "text": "I'm glad you came in. It's important not to ignore any chest -related symptoms. Let me ask you a few questions to better understand your condition. Have you noticed if these symptoms occur during any specific activities or times of the day?",
+        "utterance_id": "U3"
+    },
+    {
+        "speaker": "Patient",
+        "start": 26.52,
+        "end": 33.84,
+        "text": "Yes. I've noticed that it happens mostly when I push myself physically, like when I'm climbing stairs or walking fast.",
+        "utterance_id": "U4"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 34.84,
+        "end": 38.12,
+        "text": "All right. Do you have any history of heart disease in your family?",
+        "utterance_id": "U5"
+    },
+    {
+        "speaker": "Patient",
+        "start": 38.92,
+        "end": 43.92,
+        "text": "Not that I'm aware of. My parents and siblings don't have any heart -related issues.",
+        "utterance_id": "U6"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 44.84,
+        "end": 60.48,
+        "text": "Based on your symptoms and their relation to physical activity, it's important to consider your heart health. I'd like to order an electrocardiogram, also called ECG, to get a baseline assessment of your heart health. I'd like to order an electrocardiogram, also called ECG, to get a baseline assessment of your heart's electrical activity. It will help us determine if any abnormalities are present.",
+        "utterance_id": "U7"
+    },
+    {
+        "speaker": "Patient",
+        "start": 61.06,
+        "end": 67.82,
+        "text": "I trust your judgment, doctor. Please go ahead with the necessary tests. I want to make sure everything is okay.",
+        "utterance_id": "U8"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 68.92,
+        "end": 79.72,
+        "text": "Thank you for your trust, Mr. Johnson. In the meantime, I recommend making some lifestyle changes to support your heart health. Have you been following a balanced diet and engaging in regular exercise?",
+        "utterance_id": "U9"
+    },
+    {
+        "speaker": "Patient",
+        "start": 80.48,
+        "end": 87.9,
+        "text": "I must admit my diet hasn't been the healthiest lately, and my exercise routine is almost non -existent due to work.",
+        "utterance_id": "U10"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 88.82,
+        "end": 105.1,
+        "text": "I'm not sure if I'm doing it right, but I'm sure I'll be doing it right. It's never too late to make positive changes, Mr. Johnson. A heart -healthy diet with fruits, vegetables, whole grains, and lean proteins, along with regular physical activity, can significantly improve your heart's condition. It's also essential to manage stress and get enough sleep.",
+        "utterance_id": "U11"
+    },
+    {
+        "speaker": "Patient",
+        "start": 105.68,
+        "end": 114.98,
+        "text": "That would be great, doctor. I'm ready to commit to a healthier lifestyle. Are there any medications I should be taking or any other treatments we should consider?",
+        "utterance_id": "U12"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 115.7,
+        "end": 131.98,
+        "text": "We'll wait for the ECG results before discussing specific medications, as they will depend on the findings, if necessary. We may consider prescribing medications to manage your symptoms and support your heart health in the meantime. I encourage you to take it easy and avoid any heavy activities.",
+        "utterance_id": "U13"
+    },
+    {
+        "speaker": "Patient",
+        "start": 132.58,
+        "end": 142.38,
+        "text": "I appreciate your guidance, doctor. I'll be cautious and prioritize my health. Is there anything else I should be aware of or any warning signs I should watch out for?",
+        "utterance_id": "U14"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 143.08,
+        "end": 156.44,
+        "text": "Some warning signs to watch out for include severe heart disease, severe chest pain or pressure, pain radiating to your arms or jaw, and sudden shortness of breath even at rest. If you experience any of these symptoms, it's crucial to seek immediate medical attention.",
+        "utterance_id": "U15"
+    },
+    {
+        "speaker": "Patient",
+        "start": 157.16,
+        "end": 163.54,
+        "text": "I'll keep a close eye on those symptoms and won't hesitate to reach out for help. Thank you for your time and expertise.",
+        "utterance_id": "U16"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 164.68,
+        "end": 178.58,
+        "text": "You're welcome, Mr. Johnson. Remember, we're here to support you every step of the way. Let's focus on getting your tests scheduled and making those positive lifestyle changes. We'll discuss the results and know -how. We'll take the next steps once we have more information. Take care and feel better.",
+        "utterance_id": "U17"
+    },
+    {
+        "speaker": "Patient",
+        "start": 179.5,
+        "end": 186.14,
+        "text": "Thank you, doctor. I appreciate your care and concern. I'll be in touch and follow your advice. Goodbye.",
+        "utterance_id": "U18"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 187.24,
+        "end": 190.04,
+        "text": "Goodbye, Mr. Johnson. Take care and stay well.",
+        "utterance_id": "U19"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 194.0,
+        "end": 200.6,
+        "text": "Hello again, Mr. Johnson. I have the results of your ECG. And I'm happy to say that your heart rhythm appears normal.",
+        "utterance_id": "U20"
+    },
+    {
+        "speaker": "Patient",
+        "start": 201.42,
+        "end": 206.92,
+        "text": "That's a relief to hear, doctor. So does that mean my symptoms are not as bad as I thought? No, doctor. Your heart rhythm is not related to any heart issues.",
+        "utterance_id": "U21"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 207.8,
+        "end": 220.72,
+        "text": "While the ECG results are reassuring, we still need to investigate further. To determine the exact cause of your symptoms, other factors like lung function would be contributing, I suggest a few more tests to get a clearer picture.",
+        "utterance_id": "U22"
+    },
+    {
+        "speaker": "Patient",
+        "start": 221.66,
+        "end": 224.92,
+        "text": "I understand, doctor. What tests do you recommend?",
+        "utterance_id": "U23"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 225.9,
+        "end": 236.54,
+        "text": "I'd like to conduct a pulmonary function test to assess your lung function and a stress test to evaluate your heart's response to physical exertion. These tests will help us gather more information.",
+        "utterance_id": "U24"
+    },
+    {
+        "speaker": "Patient",
+        "start": 237.18,
+        "end": 242.92,
+        "text": "All right, doctor. I'll proceed with the tests. I appreciate your thoroughness in finding the cause.",
+        "utterance_id": "U25"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 243.76,
+        "end": 259.3,
+        "text": "It's important for us to have a full understanding of your health. Mr. Johnson, these tests will help us rule out any underlying conditions and guide us toward an accurate diagnosis. In the meantime, I encourage you to continue with the lifestyle modifications we discussed earlier.",
+        "utterance_id": "U26"
+    },
+    {
+        "speaker": "Patient",
+        "start": 260.16,
+        "end": 271.46,
+        "text": "Absolutely, doctor. I've been making conscious efforts to improve my diet. and incorporate exercise into my routine. It's challenging, but I understand the importance of prioritizing my health.",
+        "utterance_id": "U27"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 272.44,
+        "end": 282.86,
+        "text": "That's great to hear, Mr. Johnson. Lifestyle changes can have a significant impact on overall well -being. Please remember to listen to your body and avoid any activities that exacerbate your symptoms.",
+        "utterance_id": "U28"
+    },
+    {
+        "speaker": "Patient",
+        "start": 283.54,
+        "end": 292.06,
+        "text": "I'll definitely keep that in mind, doctor. Thank you for your guidance and support throughout this process. It's reassuring to know that I'm in good hands.",
+        "utterance_id": "U29"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 292.84,
+        "end": 304.78,
+        "text": "You're very welcome, Mr. Johnson. It's my duty to provide you with the best care possible. Once we have the results of the additional tests, we can schedule a follow -up appointment to discuss the findings and determine the next course of action.",
+        "utterance_id": "U30"
+    },
+    {
+        "speaker": "Patient",
+        "start": 305.56,
+        "end": 314.28,
+        "text": "I appreciate your prompt attention, doctor. I'll eagerly await the results and look forward to our next meeting. Thank you again for your professionalism and care.",
+        "utterance_id": "U31"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 315.18,
+        "end": 328.92,
+        "text": "It's my pleasure, Mr. Johnson. Remember, if you have any concerns or experience any significant changes in your symptoms, don't hesitate to reach out to me or the clinic. We're here to support you. Take care, and we'll be in touch soon.",
+        "utterance_id": "U32"
+    },
+    {
+        "speaker": "Patient",
+        "start": 329.7,
+        "end": 335.62,
+        "text": "Thank you, doctor. Take care as well. And I'll be sure to keep you updated. Goodbye for now.",
+        "utterance_id": "U33"
+    },
+    {
+        "speaker": "Doctor",
+        "start": 336.64,
+        "end": 339.3,
+        "text": "Goodbye, Mr. Johnson. Wishing you the best of health.",
+        "utterance_id": "U34"
+    }
+]
