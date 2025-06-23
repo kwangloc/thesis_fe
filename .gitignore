@@ -47,3 +47,9 @@ next-env.d.ts
 *.flac
 
 /public/data/audio/
+public/data/audio/*.wav
+public/data/audio/*.mp3
+public/data/audio/*.ogg
+public/data/audio/*.m4a
+public/data/audio/*.aac
+public/data/audio/*.flac    
