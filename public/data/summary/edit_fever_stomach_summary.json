@@ -1,0 +1,88 @@
+{
+  "s": [
+    {
+      "info": "<p><strong>Patient, Tony McKay, presents with a fever and sore stomach.AAAAAAA</strong></p>",
+      "utterance_ids": [
+        "U2"
+      ]
+    },
+    {
+      "info": "He reports feeling dizzy and nauseous.",
+      "utterance_ids": [
+        "U4"
+      ]
+    },
+    {
+      "info": "He has vomited twice this morning.",
+      "utterance_ids": [
+        "U5"
+      ]
+    },
+    {
+      "info": "He denies taking any medicine to treat symptoms.",
+      "utterance_ids": [
+        "U7"
+      ]
+    }
+  ],
+  "o": [
+    {
+      "info": "Physical examination reveals a temperature of 104 degrees.",
+      "utterance_ids": [
+        "U3"
+      ]
+    },
+    {
+      "info": "He has a history of vomiting and diarrhea.",
+      "utterance_ids": [
+        "U5"
+      ]
+    },
+    {
+      "info": "He denies any food poisoning.",
+      "utterance_ids": [
+        "U8"
+      ]
+    },
+    {
+      "info": "No medication was taken.",
+      "utterance_ids": [
+        "U7"
+      ]
+    }
+  ],
+  "a": [
+    {
+      "info": "Primary diagnosis is a high temperature and fever, secondary to food poisoning.",
+      "utterance_ids": [
+        "U3"
+      ]
+    },
+    {
+      "info": "Differential diagnoses could include other causes of symptoms, but these are not considered at this time.",
+      "utterance_ids": [
+        "U8"
+      ]
+    }
+  ],
+  "p": [
+    {
+      "info": "The patient is advised to take a six-hour course of anti-diarrheal medication every six hours until it is finished.",
+      "utterance_ids": [
+        "U9"
+      ]
+    },
+    {
+      "info": "He will be treated with a 24-hour course of anti-diarrheal medication.",
+      "utterance_ids": [
+        "U9"
+      ]
+    },
+    {
+      "info": "The patient is advised to report any new symptoms within 24 hours.",
+      "utterance_ids": [
+        "U9"
+      ]
+    }
+  ]
+}

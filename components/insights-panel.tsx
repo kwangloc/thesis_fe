@@ -182,7 +182,7 @@ export function InsightsPanel({
   function summaryArrayToObject(summary: SummaryPoint[]) {
     const obj: Record<string, { info: string; utterance_ids: string[] }[]> = {};
     summary.forEach((point) => {
-      const key = point.category.toLowerCase();
+      const key = point.category.toUpperCase();
       if (!obj[key]) obj[key] = [];
       obj[key].push({
         info: point.text,

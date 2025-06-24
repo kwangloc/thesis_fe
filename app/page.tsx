@@ -51,7 +51,8 @@ const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
     name: "Fever Stomach",
     transcriptPath: "/data/transcript/labelled_fever_stomach.json",
     wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
-    summaryPath: "/data/summary/summary_fever_stomach.json",
+    // summaryPath: "/data/summary/summary_fever_stomach.json",
+    summaryPath: "/data/summary/edit_fever_stomach_summary.json",
     audioPath: "/data/audio/fever_stomach.mp3"
   },
   {
@@ -173,7 +174,8 @@ export default function Home() {
   
   try {
     // Define valid SOAP categories
-    const validCategories = ['S', 'O', 'A', 'P'];
+    // const validCategories = ['S', 'O', 'A', 'P'];
+    const validCategories = ['S', 'O', 'A', 'P', 's', 'o', 'a', 'p'];
     
     // Safely transform summary data
     const points = Object.entries(summaryData)
