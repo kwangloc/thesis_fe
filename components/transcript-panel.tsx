@@ -319,18 +319,21 @@ export function TranscriptPanel({
         <div className="space-y-2 pr-4">
           {filteredTranscript.map((segment) => {
             const speaker = getSpeakerById(segment.speakerId);
+            const isActive = activeSegmentId === segment.id;
+            const isHighlighted =
+              highlightedSegmentId === segment.id ||
+              highlightedSegmentIds.includes(segment.id);
             return (
               <div
                 key={segment.id}
+                id={segment.id}
                 ref={(el) => {
                   segmentRefs.current[segment.id] = el;
                 }}
                 className={cn(
                   "transition-all duration-200 cursor-pointer hover:bg-gray-50 p-3 rounded-md",
-                  activeSegmentId === segment.id && "bg-blue-50 p-3 rounded-md",
-                  (highlightedSegmentId === segment.id ||
-                    highlightedSegmentIds.includes(segment.id)) &&
-                    "bg-[#ff6f1639] p-3 rounded-md"
+                  isActive && "bg-blue-50 p-3 rounded-md",
+                  isHighlighted && "bg-[#ff6f1639] p-3 rounded-md"
                 )}
                 onClick={() => onSegmentClick(segment)}
               >
