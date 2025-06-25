@@ -40,14 +40,14 @@ const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
     wordTranscriptPath:
       "/data/transcript_word/tokens_encounter_chest_pain.json",
     summaryPath: "/data/summary/summary_encounter_chest_pain.json",
-    audioPath: "/data/audio/encounter_chest_pain.mp3",
+    audioPath: "/data/audio/encounter_chest_pain.wav",
   },
   {
     name: "Encounter Fever",
     transcriptPath: "/data/transcript/labelled_encounter_fever.json",
     wordTranscriptPath: "/data/transcript_word/tokens_encounter_fever.json",
     summaryPath: "/data/summary/summary_encounter_fever.json",
-    audioPath: "/data/audio/encounter_fever.mp3",
+    audioPath: "/data/audio/encounter_fever.wav",
   },
   {
     name: "Fever Stomach",
@@ -55,7 +55,7 @@ const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
     wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
     // summaryPath: "/data/summary/summary_fever_stomach.json",
     summaryPath: "/data/summary/edit_fever_stomach_summary.json",
-    audioPath: "/data/audio/fever_stomach.mp3",
+    audioPath: "/data/audio/fever_stomach.wav",
   },
   {
     name: "Sexual Health History",
