@@ -11,6 +11,8 @@ import { Label } from "@/components/ui/label";
 import React from "react";
 import { ProfileModal } from "@/components/profile/ProfileModal";
 
+import { DoctorProfile } from "@/components/profile/Types";
+
 export default function Home() {
   // Upload state
   const [audioFile, setAudioFile] = useState<File | null>(null);
@@ -44,6 +46,43 @@ export default function Home() {
 
   const audioPlayerRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Profile state
+  // Add these state variables inside your Home component
+  const [doctorProfile, setDoctorProfile] = useState<DoctorProfile | null>(
+    null
+  );
+  const [isLoadingProfile, setIsLoadingProfile] = useState(false);
+  const apiBaseUrl =
+    process.env.NEXT_PUBLIC_API_URL_PROFILE ||
+    "http://localhost:8000/api/profile";
+
+  // Add this effect to fetch the profile when the component mounts
+  useEffect(() => {
+    fetchDoctorProfile();
+  }, []);
+
+  const fetchDoctorProfile = async () => {
+    if (isLoadingProfile) return;
+
+    setIsLoadingProfile(true);
+    try {
+      const response = await fetch(apiBaseUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch profile: ${response.status}`);
+      }
+      const data = await response.json();
+      setDoctorProfile(data);
+    } catch (error) {
+      console.error("Error loading profile:", error);
+    } finally {
+      setIsLoadingProfile(false);
+    }
+  };
+
+  const handleProfileUpdate = (updatedProfile: DoctorProfile) => {
+    setDoctorProfile(updatedProfile);
+  };
 
   // Update audio player height
   useEffect(() => {
@@ -509,9 +548,11 @@ export default function Home() {
             </div>
             <div className="text-left">
               <span className="text-sm font-medium text-gray-700">
-                Dr. Sarah Johnson
+                {doctorProfile ? doctorProfile.name : "Loading..."}
               </span>
-              <span className="block text-xs text-gray-500">Cardiologist</span>
+              <span className="block text-xs text-gray-500">
+                {doctorProfile ? doctorProfile.title : ""}
+              </span>
             </div>
             <svg
               className={`h-4 w-4 text-gray-500 transition-transform ${
@@ -947,11 +988,13 @@ export default function Home() {
         )}
       </main>
 
-      {/* Profile Modal - Enhanced version */}
+      {/* Profile Modal */}
       {isProfileModalOpen && (
         <ProfileModal
           isOpen={isProfileModalOpen}
           onClose={() => setIsProfileModalOpen(false)}
+          profile={doctorProfile}
+          onProfileUpdate={handleProfileUpdate}
         />
       )}
     </div>

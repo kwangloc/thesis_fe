@@ -1,27 +1,38 @@
-import { useState, useEffect, useRef } from 'react';
-import { ProfileDisplay } from './ProfileDisplay';
-import { ProfileEdit } from './ProfileEdit';
-import { DoctorProfile } from './Types';
+import { useState, useEffect, useRef } from "react";
+import { ProfileDisplay } from "./ProfileDisplay";
+import { ProfileEdit } from "./ProfileEdit";
+import { DoctorProfile } from "./Types";
 
 interface ProfileModalProps {
   isOpen: boolean;
   onClose: () => void;
+  profile: DoctorProfile | null;
+  onProfileUpdate: (profile: DoctorProfile) => void;
 }
 
-export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
+export function ProfileModal({
+  isOpen,
+  onClose,
+  profile,
+  onProfileUpdate,
+}: ProfileModalProps) {
   const [isEditing, setIsEditing] = useState(false);
-  const [profile, setProfile] = useState<DoctorProfile | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [localProfile, setLocalProfile] = useState<DoctorProfile | null>(
+    profile
+  );
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  
-  const modalRef = useRef<HTMLDivElement>(null);
+  const [isSaving, setIsSaving] = useState(false);
 
-  // Fetch profile data when modal opens
+  const modalRef = useRef<HTMLDivElement>(null);
+  const apiBaseUrl =
+    process.env.NEXT_PUBLIC_API_URL_PROFILE ||
+    "http://localhost:8000/api/profile";
+
+  // Update local profile when prop changes
   useEffect(() => {
-    if (isOpen) {
-      fetchProfileData();
-    }
-  }, [isOpen]);
+    setLocalProfile(profile);
+  }, [profile]);
 
   // Handle click outside to close
   useEffect(() => {
@@ -36,11 +47,11 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
     };
 
     if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isOpen, onClose]);
 
@@ -48,37 +59,54 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
     setIsLoading(true);
     setError(null);
     try {
-      // Load directly from the public directory
-      const response = await fetch('/data/doctor_profile.json');
+      const response = await fetch(`${apiBaseUrl}`);
       if (!response.ok) {
-        throw new Error('Failed to fetch profile data');
+        throw new Error(`Failed to fetch profile data: ${response.status}`);
       }
       const data = await response.json();
-      setProfile(data);
+      setLocalProfile(data);
+      onProfileUpdate(data); // Update parent state too
     } catch (err) {
-      setError('Error loading profile data. Please try again.');
+      setError("Error loading profile data. Please try again.");
       console.error(err);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleSaveProfile = (updatedProfile: DoctorProfile) => {
-    // Since we don't have an API, we'll just update the local state
-    setProfile(updatedProfile);
-    setIsEditing(false);
-    
-    // Alert user that changes won't persist without an API
-    alert('Profile updated in memory. Changes will be lost on page refresh because there is no API to save the data permanently.');
-    
-    // Download the updated profile as a JSON file
-    const blob = new Blob([JSON.stringify(updatedProfile, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'doctor_profile.json';
-    link.click();
-    URL.revokeObjectURL(url);
+  const handleSaveProfile = async (updatedProfile: DoctorProfile) => {
+    setIsSaving(true);
+    try {
+      const response = await fetch(`${apiBaseUrl}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updatedProfile),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to update profile");
+      }
+
+      // Update both local and parent state
+      setLocalProfile(updatedProfile);
+      onProfileUpdate(updatedProfile);
+      setIsEditing(false);
+
+      // Show success notification
+      alert("Profile updated successfully!");
+    } catch (err) {
+      console.error(err);
+      alert(
+        `Failed to save profile: ${
+          err instanceof Error ? err.message : "Unknown error"
+        }`
+      );
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   if (!isOpen) return null;
@@ -97,8 +125,18 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
         ) : error ? (
           <div className="p-6 text-center">
             <div className="text-red-500 mb-4">
-              <svg className="mx-auto h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg
+                className="mx-auto h-12 w-12"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
               </svg>
             </div>
             <h3 className="text-lg font-medium text-gray-900 mb-2">{error}</h3>
@@ -109,21 +147,32 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
               Try Again
             </button>
           </div>
-        ) : profile ? (
+        ) : localProfile ? (
           isEditing ? (
             <ProfileEdit
-              profile={profile}
+              profile={localProfile}
               onSave={handleSaveProfile}
               onCancel={() => setIsEditing(false)}
+              isSaving={isSaving}
             />
           ) : (
             <ProfileDisplay
-              profile={profile}
+              profile={localProfile}
               onEdit={() => setIsEditing(true)}
               onClose={onClose}
             />
           )
-        ) : null}
+        ) : (
+          <div className="p-6 text-center">
+            <p>No profile data available. Please try again later.</p>
+            <button
+              onClick={fetchProfileData}
+              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors mt-4"
+            >
+              Load Profile
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

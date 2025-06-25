@@ -5,11 +5,11 @@ interface ProfileEditProps {
   profile: DoctorProfile;
   onSave: (updatedProfile: DoctorProfile) => void;
   onCancel: () => void;
+  isSaving?: boolean; // Add this line
 }
 
-export function ProfileEdit({ profile, onSave, onCancel }: ProfileEditProps) {
+export function ProfileEdit({ profile, onSave, onCancel, isSaving = false }: ProfileEditProps) {
   const [formData, setFormData] = useState<DoctorProfile>({ ...profile });
-  const [isSaving, setIsSaving] = useState(false);
 
   const handleBasicChange = (field: keyof Omit<DoctorProfile, 'experience' | 'education' | 'publications' | 'contact'>, value: string) => {
     setFormData({
@@ -66,13 +66,7 @@ export function ProfileEdit({ profile, onSave, onCancel }: ProfileEditProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSaving(true);
-    
-    // Simulate an API call
-    setTimeout(() => {
-      onSave(formData);
-      setIsSaving(false);
-    }, 500);
+    onSave(formData);
   };
 
   return (
