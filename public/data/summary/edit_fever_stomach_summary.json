@@ -1,7 +1,7 @@
 {
   "s": [
     {
-      "info": "<p><strong>Patient, Tony McKay, presents with a fever and sore stomach.AAAAAAA</strong></p>",
+      "info": "<p><strong>Patient, Tony McKay, presents with a fever and sore stomach.</strong></p>",
       "utterance_ids": [
         "U2"
       ]

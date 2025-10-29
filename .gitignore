@@ -39,12 +39,12 @@ next-env.d.ts
 .bolt
 
 # Audio files
-*.mp3
-*.wav
-*.ogg
-*.m4a
-*.aac
-*.flac
+# *.mp3
+# *.wav
+# *.ogg
+# *.m4a
+# *.aac
+# *.flac
 
 /public/data/audio/
 public/data/audio/*.wav
