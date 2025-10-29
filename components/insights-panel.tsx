@@ -218,7 +218,11 @@ export function InsightsPanel({
   return (
     <div className="h-full flex flex-col">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-3xl font-bold">SOAP Note</h2>
+        {/* put h2 tag and span tag next to each other */}
+        <div className="flex flex-col">
+          <h2 className="text-3xl font-bold">SOAP Note</h2>
+          <span className="text-red-400">(Click on each point to see the referenced utterances)</span>
+        </div>
         <div className="flex space-x-2">
           {/* Export PDF */}
           <button

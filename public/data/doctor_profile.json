@@ -1,15 +1,15 @@
 {
-  "name": "Dr. Sarah Johnson",
-  "title": "Cardiologist",
+  "name": "Dr. Annie",
+  "title": "Pediatrician",
   "location": "Mercy Hospital, Room 302",
   "experience": [
     {
-      "position": "Senior Cardiologist",
+      "position": "Senior Pediatrician",
       "institution": "Mercy Hospital",
       "duration": "2015 - Present"
     },
     {
-      "position": "Cardiologist",
+      "position": "Pediatrician",
       "institution": "City Medical Center",
       "duration": "2010 - 2015"
     },
@@ -21,8 +21,8 @@
   ],
   "education": [
     {
-      "degree": "Fellowship in Cardiology",
-      "institution": "Harvard Medical School",
+      "degree": "Fellowship in Pediatric Medicine",
+      "institution": "Texas Medical School",
       "year": 2008
     },
     {
@@ -32,29 +32,29 @@
     },
     {
       "degree": "Doctor of Medicine (MD)",
-      "institution": "Stanford University School of Medicine",
+      "institution": "Texas Medical School",
       "year": 2003
     }
   ],
   "publications": [
     {
-      "title": "Advances in Non-Invasive Cardiac Imaging Techniques",
-      "journal": "Journal of Cardiology",
+      "title": "Advances in Non-Invasive Pediatric Imaging Techniques",
+      "journal": "Journal of Pediatrics",
       "year": 2019
     },
     {
-      "title": "Long-term Outcomes of Preventive Cardiology Interventions",
-      "journal": "American Heart Journal",
+      "title": "Long-term Outcomes of Preventive Pediatric Interventions",
+      "journal": "American Academy of Pediatrics",
       "year": 2017
     },
     {
-      "title": "Risk Factors for Cardiovascular Disease in Young Adults",
+      "title": "Pediatric Infectious Diseases: New Challenges and Solutions",
       "journal": "New England Journal of Medicine",
       "year": 2014
     }
   ],
   "contact": {
-    "email": "sarah.johnson@healthscribe.com",
+    "email": "annie@healthscribe.com",
     "phone": "(555) 123-4567"
   }
 }
