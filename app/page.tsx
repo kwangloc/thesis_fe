@@ -30,13 +30,21 @@ interface ConversationFiles {
 // Available conversations with their file paths
 const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
   {
-    name: "Fever Stomach",
+    name: "Fever Stomach (available)",
     transcriptPath: "/data/transcript/labelled_fever_stomach.json",
     wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
     // summaryPath: "/data/summary/summary_fever_stomach.json",
     summaryPath: "/data/summary/edit_fever_stomach_summary.json",
     // audioPath: "/data/audio/fever_stomach.wav",
     audioPath: "/data/audio_allowed/fever_stomach.wav",
+  },
+  {
+    name: "Type 2 Diabetes (available)",
+    transcriptPath: "/data/transcript/labelled_type_2_diabetes.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_type_2_diabetes.json",
+    summaryPath: "/data/summary/summary_type_2_diabetes.json",
+    // audioPath: "/data/audio/type_2_diabetes.wav",
+    audioPath: "/data/audio_allowed/type_2_diabetes.wav",
   },
   {
     name: "Abdominal Pain History",
@@ -68,14 +76,7 @@ const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
       "/data/transcript_word/tokens_sexual_health_history.json",
     summaryPath: "/data/summary/summary_sexual_health_history.json",
     audioPath: "/data/audio/sexual_health_history.wav",
-  },
-  {
-    name: "Type 2 Diabetes",
-    transcriptPath: "/data/transcript/labelled_type_2_diabetes.json",
-    wordTranscriptPath: "/data/transcript_word/tokens_type_2_diabetes.json",
-    summaryPath: "/data/summary/summary_type_2_diabetes.json",
-    audioPath: "/data/audio/type_2_diabetes.wav",
-  },
+  }
 ];
 
 export default function Home() {
