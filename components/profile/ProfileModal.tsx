@@ -3,25 +3,51 @@ import { ProfileDisplay } from './ProfileDisplay';
 import { ProfileEdit } from './ProfileEdit';
 import { DoctorProfile } from './Type';
 
-interface ProfileModalProps {
+// interface ProfileModalProps {
+//   isOpen: boolean;
+//   onClose: () => void;
+// }
+
+type ProfileModalProps = {
   isOpen: boolean;
   onClose: () => void;
-}
+  // allow calling component to receive updates
+  onUpdate?: (updatedProfile: DoctorProfile) => void;
+  // add optional profile prop so the parent can pass data
+  profile?: DoctorProfile | null;
+  // ...existing props if any ...
+};
 
-export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
+// export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
+
+export const ProfileModal: React.FC<ProfileModalProps> = ({
+  isOpen,
+  onClose,
+  onUpdate,
+  profile
+}) => {
+
   const [isEditing, setIsEditing] = useState(false);
-  const [profile, setProfile] = useState<DoctorProfile | null>(null);
+  // local editable copy of the profile (parent may pass `profile` prop)
+  const [localProfile, setLocalProfile] = useState<DoctorProfile | null>(profile ?? null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
   const modalRef = useRef<HTMLDivElement>(null);
 
-  // Fetch profile data when modal opens
+  // Fetch profile data when modal opens or when the incoming prop changes
   useEffect(() => {
     if (isOpen) {
-      fetchProfileData();
+      // If parent already provided a profile prop, use that as the source of truth
+      if (profile) {
+        setLocalProfile(profile);
+        setIsLoading(false);
+      } else {
+        fetchProfileData();
+      }
     }
-  }, [isOpen]);
+    // keep this effect in sync when `profile` prop changes
+  }, [isOpen, profile]);
 
   // Handle click outside to close
   useEffect(() => {
@@ -54,7 +80,7 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
         throw new Error('Failed to fetch profile data');
       }
       const data = await response.json();
-      setProfile(data);
+      setLocalProfile(data);
     } catch (err) {
       setError('Error loading profile data. Please try again.');
       console.error(err);
@@ -65,7 +91,7 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
 
   const handleSaveProfile = (updatedProfile: DoctorProfile) => {
     // Since we don't have an API, we'll just update the local state
-    setProfile(updatedProfile);
+    setLocalProfile(updatedProfile);
     setIsEditing(false);
     
     // Alert user that changes won't persist without an API
@@ -79,6 +105,15 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
     link.download = 'doctor_profile.json';
     link.click();
     URL.revokeObjectURL(url);
+    // Notify parent if it wants the updated profile
+    if (onUpdate) {
+      try {
+        onUpdate(updatedProfile);
+      } catch (e) {
+        // swallow errors from parent callback
+        console.error('onUpdate callback threw an error', e);
+      }
+    }
   };
 
   if (!isOpen) return null;
@@ -109,16 +144,16 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
               Try Again
             </button>
           </div>
-        ) : profile ? (
+        ) : localProfile ? (
           isEditing ? (
             <ProfileEdit
-              profile={profile}
+              profile={localProfile}
               onSave={handleSaveProfile}
               onCancel={() => setIsEditing(false)}
             />
           ) : (
             <ProfileDisplay
-              profile={profile}
+              profile={localProfile}
               onEdit={() => setIsEditing(true)}
               onClose={onClose}
             />

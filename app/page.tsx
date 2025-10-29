@@ -30,6 +30,15 @@ interface ConversationFiles {
 // Available conversations with their file paths
 const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
   {
+    name: "Fever Stomach",
+    transcriptPath: "/data/transcript/labelled_fever_stomach.json",
+    wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
+    // summaryPath: "/data/summary/summary_fever_stomach.json",
+    summaryPath: "/data/summary/edit_fever_stomach_summary.json",
+    // audioPath: "/data/audio/fever_stomach.wav",
+    audioPath: "/data/audio_allowed/fever_stomach.wav",
+  },
+  {
     name: "Abdominal Pain History",
     transcriptPath: "/data/transcript/labelled_abdominal_pain_history.json",
     wordTranscriptPath:
@@ -51,15 +60,6 @@ const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
     wordTranscriptPath: "/data/transcript_word/tokens_encounter_fever.json",
     summaryPath: "/data/summary/summary_encounter_fever.json",
     audioPath: "/data/audio/encounter_fever.wav",
-  },
-  {
-    name: "Fever Stomach",
-    transcriptPath: "/data/transcript/labelled_fever_stomach.json",
-    wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
-    // summaryPath: "/data/summary/summary_fever_stomach.json",
-    summaryPath: "/data/summary/edit_fever_stomach_summary.json",
-    // audioPath: "/data/audio/fever_stomach.wav",
-    audioPath: "/data/audio_allowed/fever_stomach.wav",
   },
   {
     name: "Sexual Health History",
