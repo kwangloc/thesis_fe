@@ -30,7 +30,7 @@ interface ConversationFiles {
 // Available conversations with their file paths
 const AVAILABLE_CONVERSATIONS: ConversationFiles[] = [
   {
-    name: "Fever Stomach (Only Available Now)",
+    name: "Fever Stomach",
     transcriptPath: "/data/transcript/labelled_fever_stomach.json",
     wordTranscriptPath: "/data/transcript_word/tokens_fever_stomach.json",
     // summaryPath: "/data/summary/summary_fever_stomach.json",
@@ -596,7 +596,7 @@ export default function Home() {
   return (
     <div className="h-screen overflow-hidden bg-gray-70">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 py-4 px-6 flex justify-between items-center flex-shrink-0 z-20">
+      <header className=" bg-blue-300 border-b border-gray-200 py-1 px-6 flex justify-between items-center flex-shrink-0 z-20">
         {/* Logo/Website Name */}
         <div className="flex items-center">
           <svg
@@ -818,8 +818,8 @@ export default function Home() {
       </header>
       <main className="h-full flex flex-col max-w-full mx-auto px-4">
         {/* Conversation Selection UI */}
-        <div className="my-2 p-2 bg-white rounded-lg shadow-sm flex-shrink-0 flex items-center">
-          <h2 className="text-lg font-bold m-0 mr-4">Select Conversation:</h2>
+        <div className="my-2 p-1 bg-white rounded-lg shadow-sm flex-shrink-0 flex items-center">
+          <h2 className="text-lg font-bold m-0 mr-4">Select conversation:</h2>
           <div className="w-64">
             <Select
               value={selectedConversation}
@@ -872,9 +872,9 @@ export default function Home() {
 
             {/* Content panels - This now fills the remaining height */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1 overflow-hidden min-h-0">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-400 flex flex-col min-h-0 overflow-hidden">
+              <div className="bg-white rounded-lg shadow-sm border border-gray-400 flex flex-col min-h-0 overflow-hidden">
                 {/* <h2 className="text-2xl font-bold mb-2 flex-shrink-0">Transcript</h2> */}
-                <ScrollArea
+                {/* <ScrollArea
                   className="flex-1 min-h-0 pr-4"
                   ref={transcriptScrollRef}
                 >
@@ -886,19 +886,25 @@ export default function Home() {
                     onSegmentClick={handleSegmentClick}
                     wordTimings={wordTimings.length > 0 ? wordTimings : []}
                   />
-                </ScrollArea>
+                </ScrollArea> */}
+                <TranscriptPanel
+                    transcript={audioData.transcript}
+                    speakers={audioData.speakers}
+                    currentTime={currentTime}
+                    highlightedSegmentIds={highlightedSegmentIds}
+                    onSegmentClick={handleSegmentClick}
+                    wordTimings={wordTimings.length > 0 ? wordTimings : []}
+                  />
               </div>
 
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-400 flex flex-col min-h-0 overflow-hidden">
+              <div className="bg-white rounded-lg shadow-sm border border-gray-400 flex flex-col min-h-0 overflow-hidden">
                 {/* <h2 className="text-2xl font-bold mb-2 flex-shrink-0">Insights</h2> */}
-                <ScrollArea className="flex-1 min-h-0 pr-4">
-                  <InsightsPanel
-                    summary={audioData.summary}
-                    onSummaryPointClick={handleSummaryPointClick}
-                    onSummaryEdit={handleSummaryEdit}
-                    activePointId={activePointId}
-                  />
-                </ScrollArea>
+                <InsightsPanel
+                  summary={audioData.summary}
+                  onSummaryPointClick={handleSummaryPointClick}
+                  onSummaryEdit={handleSummaryEdit}
+                  activePointId={activePointId}
+                />
               </div>
             </div>
           </>

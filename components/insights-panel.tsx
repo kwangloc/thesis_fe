@@ -217,11 +217,10 @@ export function InsightsPanel({
 
   return (
     <div className="h-full flex flex-col">
-      <div className="flex justify-between items-center mb-4">
-        {/* put h2 tag and span tag next to each other */}
+      <div className="flex justify-between items-center p-2 border-b border-gray-400 bg-orange-100">
         <div className="flex flex-col">
-          <h2 className="text-3xl font-bold">SOAP Note</h2>
-          <span className="text-red-400">(Click on each point to see the referenced utterances)</span>
+          <h2 className="text-2xl font-bold">SOAP Note</h2>
+          <span className="">(Click on each point to see the referenced utterances)</span>
         </div>
         <div className="flex space-x-2">
           {/* Export PDF */}
@@ -249,10 +248,10 @@ export function InsightsPanel({
       </div>
 
       <ScrollArea ref={scrollAreaRef} className="flex-1">
-        <div className="space-y-6">
+        <div className="space-y-6 p-2">
           {Object.entries(summaryByCategory).map(([category, points]) => (
             <div key={category} className="space-y-2">
-              <h3 className="text-2xl font-semibold text-gray-800">
+              <h3 className="text-xl font-semibold text-gray-800">
                 {/* {category} */}
                 {getCategoryFullName(category)}
               </h3>
@@ -270,7 +269,7 @@ export function InsightsPanel({
                       onClick={() => onSummaryPointClick(point)}
                     >
                       <div
-                        className="text-gray-700 pr-12 prose prose-sm max-w-none text-lg"
+                        className="text-gray-700 pr-12 prose prose-sm max-w-none text-base"
                         dangerouslySetInnerHTML={{ __html: point.text }}
                       />
                       {point.versions && point.versions.length > 1 && (

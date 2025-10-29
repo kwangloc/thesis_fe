@@ -278,8 +278,11 @@ export function TranscriptPanel({
 
   return (
     <div className="h-full flex flex-col">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-3xl font-bold">Transcript</h2>
+      <div className="flex justify-between items-center p-2 border-b border-gray-400 bg-orange-100">
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-bold">Transcript</h2>
+          <span className="">(Click on each utterance to play)</span>
+        </div>
         <div className="flex items-center gap-2">
           <Button
             variant="outline"
@@ -316,7 +319,7 @@ export function TranscriptPanel({
       </div>
 
       <ScrollArea ref={scrollAreaRef} className="flex-1">
-        <div className="space-y-2 pr-4">
+        <div className="">
           {filteredTranscript.map((segment) => {
             const speaker = getSpeakerById(segment.speakerId);
             const isActive = activeSegmentId === segment.id;
@@ -331,16 +334,16 @@ export function TranscriptPanel({
                   segmentRefs.current[segment.id] = el;
                 }}
                 className={cn(
-                  "transition-all duration-200 cursor-pointer hover:bg-gray-50 p-3 rounded-md",
-                  isActive && "bg-blue-50 p-3 rounded-md",
-                  isHighlighted && "bg-[#ff6f1639] p-3 rounded-md"
+                  "transition-all duration-200 cursor-pointer hover:bg-gray-50 px-2 py-1 rounded-md",
+                  isActive && "bg-blue-100 rounded-md",
+                  isHighlighted && "bg-[#ff6f1639] rounded-md"
                 )}
                 onClick={() => onSegmentClick(segment)}
               >
-                <div className="mb-1">
+                <div className="">
                   <span
                     className={cn(
-                    "font-semibold text-xl",
+                    "font-semibold text-lg",
                     speaker?.role === "doctor"
                       ? "text-[#a53860]"
                       : speaker?.role === "patient"
@@ -356,7 +359,7 @@ export function TranscriptPanel({
                   </span>
                 </div>
                 <p
-                  className="text-gray-800 text-lg"
+                  className="text-gray-800 text-base"
                   dangerouslySetInnerHTML={{
                     __html: highlightCurrentWord(segment.text, segment),
                   }}
