@@ -599,8 +599,8 @@ export default function Home() {
       <header className=" bg-blue-300 border-b border-gray-200 py-1 px-6 flex justify-between items-center flex-shrink-0 z-20">
         {/* Logo/Website Name */}
         <div className="flex items-center">
-          <svg
-            className="h-8 w-8 text-blue-600 mr-2"
+          {/* <svg
+            className="h-8 w-8 text-blue-800 mr-2"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -611,15 +611,16 @@ export default function Home() {
               strokeLinejoin="round"
               d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
             />
-          </svg>
-          <h1 className="text-xl font-bold text-gray-800">Healthscribe</h1>
+          </svg> */}
+          <svg fill="#1e3a8a" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.9 488.9"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M432.25,130.1L325.05,7.3c-4.2-5.2-9.4-7.3-15.6-7.3H72.25c-11.4,0-20.8,9.4-20.8,20.8v447.3c0,11.4,9.4,20.8,20.8,20.8 h345.4c11.4,0,19.8-9.4,19.8-19.8V143.6C437.45,138.4,435.35,134.2,432.25,130.1z M330.25,75l55.6,63.4h-55.6V75z M288.65,40.6 v117.6c0,11.4,9.4,20.8,20.8,20.8h87.4v91.5h-64.5c-8.3,0-15.6,5.2-18.7,12.5l-7.3,15.6l-12.5-17.7c-3.1-6.2-9.4-9.4-16.6-9.4h-52 c-8.3,0-15.6,5.2-18.7,13.5l-2.1,4.2l-14.6-73.9c-1.8-12.7-23.5-28-38.5-5.2l-36.4,76h-22.9V40.6H288.65z M93.05,448.4h-1V327.7 h35.4c8.3,0,15.6-4.2,18.7-11.4l15.6-32.3l16.6,85.3c9.6,25.9,35.4,18.2,39.5,2.1l21.8-59.3h27l26,39.5c15,18.7,33.6,6.2,35.4-2.1 l16.6-37.5h52v136.3H93.05V448.4z"></path> </g> </g></svg>
+          <h1 className="ml-1 text-xl font-bold text-blue-900">Healthscribe</h1>
         </div>
 
         {/* Doctor Profile */}
         <div className="relative">
           <button
             onClick={toggleProfileDropdown}
-            className="flex items-center space-x-3 hover:bg-gray-100 rounded-full py-1 pl-1 pr-3 transition-colors"
+            className="flex items-center space-x-3 bg-white hover:bg-red-100 rounded-full py-1 pl-1 pr-3 transition-colors"
           >
             <div className="bg-blue-100 rounded-full p-1">
               <svg
